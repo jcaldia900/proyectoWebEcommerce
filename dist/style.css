@@ -601,9 +601,7 @@ html,
 body {
   position: relative;
   height: 100%;
-  -webkit-background-clip: text;
-          background-clip: text;
-  ;
+
   
 }
 p,a{font-family:'Heebo, sans-serif';
@@ -615,6 +613,7 @@ body {
   color: #000;
   margin: 0;
   padding: 0;
+  
 }
 
 .swiper-container {
@@ -632,8 +631,14 @@ body {
   justify-content: center;
   align-items: center;
 }
-.absolute{
-	position: absolute;
+.relative{
+	position: relative;
+}
+.float-left{
+	float: left;
+}
+.float-right{
+	float: right;
 }
 .m-auto{
 	margin: auto;
@@ -693,17 +698,11 @@ body {
 .ml-5{
 	margin-left: 1.25rem;
 }
-.ml-20{
-	margin-left: 5rem;
-}
-.mr-20{
-	margin-right: 5rem;
-}
-.mr-48{
-	margin-right: 12rem;
-}
 .flex{
 	display: flex;
+}
+.block{
+	display: block;
 }
 .inline-block{
 	display: inline-block;
@@ -732,11 +731,11 @@ body {
 .h-8{
 	height: 2rem;
 }
-.h-60{
-	height: 15rem;
-}
 .w-4{
 	width: 1rem;
+}
+.w-auto{
+	width: auto;
 }
 .w-4\/12{
 	width: 33.333333%;
@@ -758,9 +757,6 @@ body {
 }
 .w-8{
 	width: 2rem;
-}
-.w-full{
-	width: 100%;
 }
 .max-w-xl{
 	max-width: 36rem;
@@ -786,20 +782,19 @@ body {
 .justify-center{
 	justify-content: center;
 }
-.justify-items-end{
-	justify-items: end;
-}
 .gap-20{
 	gap: 5rem;
 }
 .gap-16{
 	gap: 4rem;
 }
+.space-x-4 > :not([hidden]) ~ :not([hidden]){
+	--tw-space-x-reverse: 0;
+	margin-right: calc(1rem * var(--tw-space-x-reverse));
+	margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
+}
 .overflow-hidden{
 	overflow: hidden;
-}
-.overflow-scroll{
-	overflow: scroll;
 }
 .rounded-full{
 	border-radius: 9999px;
@@ -874,14 +869,6 @@ body {
 .px-10{
 	padding-left: 2.5rem;
 	padding-right: 2.5rem;
-}
-.py-64{
-	padding-top: 16rem;
-	padding-bottom: 16rem;
-}
-.px-48{
-	padding-left: 12rem;
-	padding-right: 12rem;
 }
 .py-8{
 	padding-top: 2rem;
@@ -985,10 +972,6 @@ body {
 	--tw-text-opacity: 1;
 	color: rgba(55, 65, 81, var(--tw-text-opacity));
 }
-.text-red-700{
-	--tw-text-opacity: 1;
-	color: rgba(185, 28, 28, var(--tw-text-opacity));
-}
 .underline{
 	text-decoration: underline;
 }
@@ -1014,6 +997,10 @@ body {
 }
 @media (min-width: 640px){
 
+	.sm\:mb-20{
+		margin-bottom: 5rem;
+	}
+
 	.sm\:grid-cols-2{
 		grid-template-columns: repeat(2, minmax(0, 1fr));
 	}
@@ -1021,12 +1008,12 @@ body {
 	.sm\:grid-cols-3{
 		grid-template-columns: repeat(3, minmax(0, 1fr));
 	}
+
+	.sm\:pt-10{
+		padding-top: 2.5rem;
+	}
 }
 @media (min-width: 768px){
-
-	.md\:flex-none{
-		flex: none;
-	}
 
 	.md\:grid-cols-3{
 		grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -1034,29 +1021,5 @@ body {
 
 	.md\:grid-cols-4{
 		grid-template-columns: repeat(4, minmax(0, 1fr));
-	}
-
-	.md\:items-stretch{
-		align-items: stretch;
-	}
-
-	.md\:place-items-auto{
-		place-items: auto;
-	}
-
-	.md\:justify-items-auto{
-		justify-items: auto;
-	}
-
-	.md\:overflow-x-auto{
-		overflow-x: auto;
-	}
-
-	.md\:overflow-y-auto{
-		overflow-y: auto;
-	}
-
-	.md\:flex-shrink{
-		flex-shrink: 1;
 	}
 }
