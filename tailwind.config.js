@@ -9,10 +9,14 @@ module.exports = {
 			colors: {
 			  'primary': '#243c5a',
 			  'brownbutton': '#9a825c',
-			  'colorFooter': '#0a1e32'
+			  'colorFooter': '#0a1e32',
+			  'backgroundMain':'#fffff3',
+			  'textcolorP': '#5c6469',
+			  'backgroundButtonSwipper':'#e3b151'
 			},
 			fontFamily: {
-				'sans': 'Montserrat, sans-serif'
+				'sans': 'Heebo, sans-serif',
+				'letraPrincipal':'Ibarra Real Nova'			
 			}
 		}	
 	},

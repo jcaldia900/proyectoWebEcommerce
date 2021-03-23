@@ -1,76 +1,50 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@400;500;600&display=swap');
 
 @tailwind base;
 @tailwind components;
 
-    .container {
-        margin: auto;
+html,
+body {
+  position: relative;
+  height: 100%;
+  background-clip: text;
+  ;
+  
+}
+p,a{font-family:'Heebo, sans-serif';
+  font-size: 12px;}
+h1,h2,h3,h4,h5 {font-family:'Ibarra Real Nova';}
+body {
+  background: #eee;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
 
-        width: 100%;
-        height: 100%;
-        padding: 30px;
-    }
+.swiper-container {
+  width: 100%;
+  height: 90%;
+}
 
-    ul,
-    li {
-        padding: 0;
-        margin: 0;
-        list-style: none;
-    }
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
 
-    ul.slider {
-        position: relative;
-        width: 100%;
-        height: 800px;
-    }
-
-    ul.slider li {
-        position: absolute;
-        left: 0px;
-        top: 0px;
-        opacity: 0;
-        width: inherit;
-        height: inherit;
-        transition: opacity .5s;
-        background: #fff;
-    }
-
-    ul.slider li img {
-        width: 100%;
-
-        object-fit: cover;
-    }
-
-    ul.slider li:first-child {
-        opacity: 1;
-        /*Mostramos el primer <li>*/
-    }
-
-    ul.slider li:target {
-        opacity: 1;
-        /*Mostramos el <li> del enlace que pulsemos*/
-    }
-
-    .menu {
-        text-align: center;
-        margin: 20px;
-    }
-
-    .menu li {
-        display: inline-block;
-        text-align: center;
-    }
-
-    .menu li a {
-
-        color: white;
-        text-decoration: none;
-        background-color: grey;
-        padding: 10px;
-        width: 25px;
-        height: 20px;
-        font-size: 20px;
-        border-radius: 100%;
-    }
-
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
 @tailwind utilities;
