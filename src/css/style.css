@@ -8,12 +8,15 @@ html,
 body {
   position: relative;
   height: 100%;
+  
 
   
 }
 p,a{font-family:'Heebo, sans-serif';
   font-size: 12px;}
-h1,h2,h3,h4,h5 {font-family:'Ibarra Real Nova';}
+h1,h2,h3,h4,h5 {font-family:'Ibarra Real Nova';
+  
+}
 body {
   background: #eee;
   font-size: 14px;

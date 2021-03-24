@@ -17,15 +17,25 @@
 </head>
 
 <body>
-    
+
     <div class="bg-brownbutton p-0.5"></div>
+
     <div class=" h-screen z-index:10"
         style="  
-            background: url(https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,dpr_1.5,q_auto,w_1700,c_fill,f_auto/site/TS_Spring21_005200.jpg) no-repeat center center; background-size: cover;">
-        <header class=" hover:bg-white h-40">
+            background: url(https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,dpr_1.5,q_auto,w_1700,c_fill,f_auto/site/TS_Spring21_005200.jpg) no-repeat center center; background-size: cover">
+
+        <header class=" hover:bg-white h-40 relative">
             <nav class="container  uppercase pt-16 mx-auto h-40 text-white hover:text-black ">
-                <div class="flex justify-between mx-auto relative" style="max-width: 90%">
-                    <div class="flex space-x-4 float-left  " style="width: auto">
+                <div class="flex justify-between mx-auto relative   " style="max-width: 90%">
+                    <div class="flex none sm:space-x-4 sm:float-left md:hidden">
+                        <a href="" class="hover:text-brownbutton flex mx-auto justify-center items-center">
+                            <p>
+                                menu
+                            </p>
+
+                        </a>
+                    </div>
+                    <div class="hidden md:flex md:space-x-4 md:float-left " style="width: auto">
                         <a href="" class="hover:text-brownbutton flex justify-center items-center ">
                             <p class="uppercase">Men</p><button class="flex items-center justify-center">
 
@@ -55,8 +65,8 @@
                     </div>
                     <div class="flex justify-center mx-auto items-center w-auto ">
                         <a href="" class="" title="Tracksmith New ENGLAND">
-                            <svg class=" h-20 -mt-10 fill-current hover:text-brownbutton" viewBox="0 0 336 172"
-                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <svg class=" h-0 w-0 md:w-auto md:h-20 md:-mt-10 fill-current hover:text-brownbutton "
+                                viewBox="0 0 336 172" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path
                                     d="M281.311 105.956C282.282 106.248 283.328 106.147 284.224 105.672C285.12 105.198 285.793 104.39 286.097 103.423C286.357 102.979 286.517 102.484 286.568 101.972C286.618 101.46 286.557 100.943 286.389 100.457C286.221 99.9711 285.95 99.527 285.594 99.1557C285.238 98.7843 284.806 98.4944 284.327 98.3058C283.848 98.1172 283.335 98.0344 282.821 98.0631C282.307 98.0918 281.806 98.2314 281.352 98.4721C280.897 98.7129 280.5 99.0492 280.188 99.4579C279.875 99.8666 279.655 100.338 279.542 100.84C279.104 101.754 279.044 102.804 279.376 103.762C279.707 104.72 280.402 105.508 281.311 105.957V105.956ZM64.565 90.668C64.7103 90.3828 64.9465 90.1541 65.2362 90.0181C65.526 89.8821 65.8528 89.8466 66.165 89.917C67.718 90.269 70.543 90.902 72.047 91.198C79.956 92.75 88.837 93.934 94.118 93.934C106.018 93.934 114.459 92.015 117.794 89.853C118.035 89.6912 118.208 89.4468 118.281 89.166C118.354 88.8851 118.322 88.5873 118.19 88.3287C118.058 88.0702 117.836 87.8688 117.566 87.7627C117.296 87.6567 116.996 87.6532 116.724 87.753C109.177 89.5808 101.401 90.284 93.648 89.84C81.567 89.226 47.72 77.422 31.105 77.422C9.63702 77.422 -0.163984 87.493 0.483016 96.28C0.703016 99.263 1.04502 100.087 1.51902 100.988C2.56402 102.971 4.80802 102.152 4.40402 100.264C4.1489 98.5314 4.17253 96.7691 4.47402 95.044C5.55002 89.5 12.785 83.972 31.105 83.972C37.9689 84.1346 44.7988 84.9916 51.49 86.53C52.964 86.839 55.729 87.468 57.559 87.888C57.7731 87.9372 57.973 88.0347 58.1437 88.173C58.3143 88.3113 58.4511 88.4867 58.5436 88.6859C58.6361 88.8851 58.6819 89.1028 58.6775 89.3224C58.673 89.542 58.6185 89.7577 58.518 89.953L49.763 106.964L27.837 149.684C27.7859 149.782 27.7642 149.894 27.7744 150.004C27.7846 150.114 27.8263 150.22 27.8945 150.307C27.9628 150.394 28.0547 150.46 28.1594 150.497C28.2641 150.534 28.3771 150.54 28.485 150.514L33.712 149.276C33.9737 149.214 34.219 149.096 34.4311 148.931C34.6432 148.766 34.8171 148.557 34.941 148.318L57.474 104.544L64.565 90.668Z" />
                                 <path
@@ -64,8 +74,19 @@
                                 <path
                                     d="M226.256 56.751C226.443 57.2644 226.482 57.8198 226.369 58.3543C226.256 58.8888 225.995 59.3809 225.617 59.775C225.061 60.483 224.31 59.732 223.572 58.789C223.343 58.495 223.045 57.697 222.58 57.532C221.888 57.2851 221.219 56.9779 220.58 56.614C220.004 56.258 219.819 55.942 219.189 55.531C218.559 55.12 218.03 54.863 217.314 54.341C216.771 53.8129 216.169 53.3485 215.521 52.957C214.424 52.2915 213.204 51.8538 211.934 51.67C210.634 51.548 204.368 51.954 201.666 51.884C202.216 52.5311 202.737 53.2024 203.227 53.896C203.556 54.383 205.506 56.345 206.215 57.039C206.924 57.733 207.884 59.445 208.315 59.866C208.746 60.287 210.122 61.032 211.184 61.919C212.566 63.114 213.787 64.4831 214.817 65.992C215.61 67.137 216.942 70.958 214.651 71.344C213.246 71.581 211.821 69.265 211.751 68.089C211.681 66.913 210.851 66.771 209.844 65.977C208.837 65.183 204.995 62.171 203.176 60.677C201.357 59.183 200.176 57.365 198.667 56.217C197.158 55.069 192.699 53.535 191.443 52.131C190.187 50.727 189.576 49.664 189.243 49.398C188.867 49.1135 188.399 48.9772 187.929 49.015C187.464 49.015 177.882 48.002 171.366 41.787C164.85 35.572 162.715 36.366 160.141 36.366C157.567 36.366 156.828 36.366 155.815 37.566C154.802 38.766 153.215 41.645 149.023 41.645C146.791 41.5132 144.623 40.8486 142.7 39.707C142.7 39.707 141.742 40.884 141.441 41.241C141.09 41.756 140.839 42.3328 140.702 42.941C140.483 43.68 138.758 47.294 136.732 47.458C134.706 47.622 132.732 47.184 132.625 46.664C132.518 46.144 133.309 46.445 133.392 45.764C133.475 45.083 133.419 44.696 133.775 44.422C134.131 44.148 134.87 44.122 134.952 43.792C134.986 43.1582 135.26 42.5612 135.718 42.122C136.836 40.9982 137.769 39.7049 138.483 38.29C138.483 38.29 135.268 37.473 134.419 38.979C133.57 40.485 132.365 44.153 127.93 45.824C123.495 47.495 122.538 45.872 122.565 45.27C122.592 44.668 122.729 43.655 123.304 43.326C123.879 42.997 123.988 42.834 124.016 42.313C124.375 41.2215 125.139 40.3098 126.152 39.767C127.521 38.891 130.368 37.167 131.518 35.467C132.668 33.767 133.407 31.005 134.885 31.005C136.363 31.005 138.812 33.463 140.208 33.737C140.57 33.232 140.778 32.6334 140.808 32.013C140.808 31.082 141.137 29.713 142.314 29.713C143.491 29.713 143.283 30.335 144.264 30.335C144.209 29.0039 144.253 27.6706 144.395 26.346C144.722 25.5289 144.943 24.6733 145.052 23.8C144.97 23.279 143.952 22.568 143.952 21.089V19.612L144.252 19.749C144.252 19.749 144.115 17.97 144.909 17.723C145.051 17.1652 145.273 16.6308 145.567 16.136C145.647 16.0286 145.759 15.9496 145.887 15.9102C146.015 15.8708 146.152 15.8732 146.279 15.917C146.421 15.5143 146.623 15.1355 146.879 14.794C147.154 14.548 147.479 14.931 147.479 14.931C147.479 14.931 148.5 13.945 148.778 14C149.056 14.055 148.997 14.383 148.997 14.383C149.263 14.2033 149.56 14.0735 149.873 14C150.202 13.974 150.229 14.331 150.229 14.331C150.569 14.1265 150.955 14.0125 151.351 14L151.734 14.085C151.734 14.085 153.021 14.085 153.322 14.578C153.456 14.857 153.5 15.1713 153.446 15.4763C153.392 15.7814 153.244 16.0618 153.022 16.278C153.022 16.278 156.91 15.155 162.988 17.728C169.066 20.301 178.183 25.093 182.645 25.586C187.107 26.079 191.46 25.942 193.487 24.957C194.254 24.5317 195.061 24.1834 195.896 23.917C195.902 23.7748 195.87 23.6336 195.802 23.5083C195.735 23.3829 195.635 23.2781 195.513 23.205C195.075 22.905 194.778 20.796 195.899 18.551C197.02 16.306 197.211 16.169 197.539 16.169C196.966 15.9298 196.408 15.6556 195.869 15.348C195.13 14.91 194.801 14.034 193.515 13.569C192.229 13.104 189.737 12.857 187.875 12.227C186.013 11.597 183.905 10.803 183.275 10.091C182.645 9.37896 183.521 9.21596 182.125 8.14796C181.175 7.49729 180.269 6.78369 179.414 6.01196C179.25 5.73796 179.058 4.91196 179.797 4.88896C180.759 4.6848 181.71 4.42876 182.644 4.12196C183.197 4.02961 183.754 3.96586 184.314 3.93096C184.075 3.69549 183.895 3.40606 183.791 3.08696C183.686 2.76785 183.66 2.42836 183.714 2.09696C183.876 0.912959 184.2 0.611959 185.135 0.638959C186.07 0.665959 186.176 1.89996 188.284 2.28296C190.392 2.66596 193.869 4.60996 195.238 5.29396C196.583 6.08664 197.742 7.16085 198.633 8.44296C199.317 9.40096 200.96 12.143 201.289 12.221C201.469 12.2633 201.639 12.344 201.785 12.4575C201.932 12.5711 202.052 12.7148 202.138 12.879C202.337 13.2903 202.633 13.6472 203 13.9191C203.367 14.1909 203.795 14.3697 204.246 14.44C205.646 14.686 207.23 15.973 208.873 17.369C210.516 18.765 210.953 19.258 211.009 19.888C211.21 20.7001 211.648 21.434 212.268 21.996C212.849 22.5167 213.331 23.138 213.692 23.83C213.846 24.3008 214.143 24.7121 214.541 25.007C214.78 25.2402 214.942 25.5407 215.005 25.8684C215.069 26.196 215.031 26.5353 214.897 26.841C214.723 27.1047 214.611 27.404 214.568 27.717C214.396 28.2636 214.096 28.7611 213.692 29.168C213.31 29.4626 212.831 29.5996 212.351 29.551C211.831 29.578 211.584 30.044 210.951 30.044H210.322C210.322 30.044 210.158 30.838 209.473 30.866C208.788 30.894 208.35 30.482 207.994 30.866C207.638 31.25 207.556 31.632 207.994 32.566C208.432 33.5 209.719 36.81 208.432 39.466C207.338 41.556 206.102 43.5684 204.732 45.489C205.066 46.026 205.566 46.4394 206.156 46.666C207.484 47.3921 208.968 47.7867 210.481 47.816C211.956 47.7116 213.438 47.8916 214.845 48.346C215.895 48.854 217.736 50.8 219.324 51.567C220.735 52.2306 222.029 53.1181 223.157 54.195C223.568 54.743 224.112 54.615 224.869 55.067C225.506 55.4591 225.993 56.0539 226.252 56.756" />
                             </svg>
+                            <svg class="md:hidden h-20 md:pt-5 md:-mt-10 fill-current hover:text-brownbutton"
+                                viewBox="0 0 336 172" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M226.256 56.751C226.443 57.2644 226.482 57.8198 226.369 58.3543C226.256 58.8888 225.995 59.3809 225.617 59.775C225.061 60.483 224.31 59.732 223.572 58.789C223.343 58.495 223.045 57.697 222.58 57.532C221.888 57.2851 221.219 56.9779 220.58 56.614C220.004 56.258 219.819 55.942 219.189 55.531C218.559 55.12 218.03 54.863 217.314 54.341C216.771 53.8129 216.169 53.3485 215.521 52.957C214.424 52.2915 213.204 51.8538 211.934 51.67C210.634 51.548 204.368 51.954 201.666 51.884C202.216 52.5311 202.737 53.2024 203.227 53.896C203.556 54.383 205.506 56.345 206.215 57.039C206.924 57.733 207.884 59.445 208.315 59.866C208.746 60.287 210.122 61.032 211.184 61.919C212.566 63.114 213.787 64.4831 214.817 65.992C215.61 67.137 216.942 70.958 214.651 71.344C213.246 71.581 211.821 69.265 211.751 68.089C211.681 66.913 210.851 66.771 209.844 65.977C208.837 65.183 204.995 62.171 203.176 60.677C201.357 59.183 200.176 57.365 198.667 56.217C197.158 55.069 192.699 53.535 191.443 52.131C190.187 50.727 189.576 49.664 189.243 49.398C188.867 49.1135 188.399 48.9772 187.929 49.015C187.464 49.015 177.882 48.002 171.366 41.787C164.85 35.572 162.715 36.366 160.141 36.366C157.567 36.366 156.828 36.366 155.815 37.566C154.802 38.766 153.215 41.645 149.023 41.645C146.791 41.5132 144.623 40.8486 142.7 39.707C142.7 39.707 141.742 40.884 141.441 41.241C141.09 41.756 140.839 42.3328 140.702 42.941C140.483 43.68 138.758 47.294 136.732 47.458C134.706 47.622 132.732 47.184 132.625 46.664C132.518 46.144 133.309 46.445 133.392 45.764C133.475 45.083 133.419 44.696 133.775 44.422C134.131 44.148 134.87 44.122 134.952 43.792C134.986 43.1582 135.26 42.5612 135.718 42.122C136.836 40.9982 137.769 39.7049 138.483 38.29C138.483 38.29 135.268 37.473 134.419 38.979C133.57 40.485 132.365 44.153 127.93 45.824C123.495 47.495 122.538 45.872 122.565 45.27C122.592 44.668 122.729 43.655 123.304 43.326C123.879 42.997 123.988 42.834 124.016 42.313C124.375 41.2215 125.139 40.3098 126.152 39.767C127.521 38.891 130.368 37.167 131.518 35.467C132.668 33.767 133.407 31.005 134.885 31.005C136.363 31.005 138.812 33.463 140.208 33.737C140.57 33.232 140.778 32.6334 140.808 32.013C140.808 31.082 141.137 29.713 142.314 29.713C143.491 29.713 143.283 30.335 144.264 30.335C144.209 29.0039 144.253 27.6706 144.395 26.346C144.722 25.5289 144.943 24.6733 145.052 23.8C144.97 23.279 143.952 22.568 143.952 21.089V19.612L144.252 19.749C144.252 19.749 144.115 17.97 144.909 17.723C145.051 17.1652 145.273 16.6308 145.567 16.136C145.647 16.0286 145.759 15.9496 145.887 15.9102C146.015 15.8708 146.152 15.8732 146.279 15.917C146.421 15.5143 146.623 15.1355 146.879 14.794C147.154 14.548 147.479 14.931 147.479 14.931C147.479 14.931 148.5 13.945 148.778 14C149.056 14.055 148.997 14.383 148.997 14.383C149.263 14.2033 149.56 14.0735 149.873 14C150.202 13.974 150.229 14.331 150.229 14.331C150.569 14.1265 150.955 14.0125 151.351 14L151.734 14.085C151.734 14.085 153.021 14.085 153.322 14.578C153.456 14.857 153.5 15.1713 153.446 15.4763C153.392 15.7814 153.244 16.0618 153.022 16.278C153.022 16.278 156.91 15.155 162.988 17.728C169.066 20.301 178.183 25.093 182.645 25.586C187.107 26.079 191.46 25.942 193.487 24.957C194.254 24.5317 195.061 24.1834 195.896 23.917C195.902 23.7748 195.87 23.6336 195.802 23.5083C195.735 23.3829 195.635 23.2781 195.513 23.205C195.075 22.905 194.778 20.796 195.899 18.551C197.02 16.306 197.211 16.169 197.539 16.169C196.966 15.9298 196.408 15.6556 195.869 15.348C195.13 14.91 194.801 14.034 193.515 13.569C192.229 13.104 189.737 12.857 187.875 12.227C186.013 11.597 183.905 10.803 183.275 10.091C182.645 9.37896 183.521 9.21596 182.125 8.14796C181.175 7.49729 180.269 6.78369 179.414 6.01196C179.25 5.73796 179.058 4.91196 179.797 4.88896C180.759 4.6848 181.71 4.42876 182.644 4.12196C183.197 4.02961 183.754 3.96586 184.314 3.93096C184.075 3.69549 183.895 3.40606 183.791 3.08696C183.686 2.76785 183.66 2.42836 183.714 2.09696C183.876 0.912959 184.2 0.611959 185.135 0.638959C186.07 0.665959 186.176 1.89996 188.284 2.28296C190.392 2.66596 193.869 4.60996 195.238 5.29396C196.583 6.08664 197.742 7.16085 198.633 8.44296C199.317 9.40096 200.96 12.143 201.289 12.221C201.469 12.2633 201.639 12.344 201.785 12.4575C201.932 12.5711 202.052 12.7148 202.138 12.879C202.337 13.2903 202.633 13.6472 203 13.9191C203.367 14.1909 203.795 14.3697 204.246 14.44C205.646 14.686 207.23 15.973 208.873 17.369C210.516 18.765 210.953 19.258 211.009 19.888C211.21 20.7001 211.648 21.434 212.268 21.996C212.849 22.5167 213.331 23.138 213.692 23.83C213.846 24.3008 214.143 24.7121 214.541 25.007C214.78 25.2402 214.942 25.5407 215.005 25.8684C215.069 26.196 215.031 26.5353 214.897 26.841C214.723 27.1047 214.611 27.404 214.568 27.717C214.396 28.2636 214.096 28.7611 213.692 29.168C213.31 29.4626 212.831 29.5996 212.351 29.551C211.831 29.578 211.584 30.044 210.951 30.044H210.322C210.322 30.044 210.158 30.838 209.473 30.866C208.788 30.894 208.35 30.482 207.994 30.866C207.638 31.25 207.556 31.632 207.994 32.566C208.432 33.5 209.719 36.81 208.432 39.466C207.338 41.556 206.102 43.5684 204.732 45.489C205.066 46.026 205.566 46.4394 206.156 46.666C207.484 47.3921 208.968 47.7867 210.481 47.816C211.956 47.7116 213.438 47.8916 214.845 48.346C215.895 48.854 217.736 50.8 219.324 51.567C220.735 52.2306 222.029 53.1181 223.157 54.195C223.568 54.743 224.112 54.615 224.869 55.067C225.506 55.4591 225.993 56.0539 226.252 56.756" />
+                            </svg>
                     </div>
-                    <div class="flex space-x-4 float-right">
+
+                    <div class="flex none sm:space-x-4 sm:float-right md:hidden">
+                        <a href="" class="hover:text-brownbutton flex mx-auto justify-center items-center">
+                            <p class>cart</p>
+                        </a>
+                    </div>
+                    <div class=" hidden md:flex md:space-x-4 md:float-right ">
                         <a href="" class="hover:text-brownbutton flex mx-auto justify-center items-center"><button
                                 class="flex items-center justify-center">
                                 <p class="uppercase block">Journal</p><svg class="w-4 h-4 ml-1 text-brownbutton"
@@ -95,37 +116,64 @@
                             <p>Cart</p>
                         </a>
                     </div>
-                </div>
-            </nav>
 
+                </div>
+
+                <div class="flex mx-auto bg-white h-0 pt-0.5 -mt-6 md:mt-2" style="width: 90%;"></div>
+
+            </nav>
+            <div class="absolute flex flex-col-1 top-40 left-0 bg-backgroundMain -mt-12" style="padding: 165px;" style="width: 100%;">
+                <div class="  ">
+                    <ul class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-20 ml-28 mr-28 mb-14 mt-4">
+                        <li>
+                            <h4 class=" text-center sm:text-sm md:text-2xl lg:text-3xl">JACKETS</h4>
+                            <img class="no-repeat  center center"
+                                src="https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,dpr_1.5,q_auto,w_350,h_350,b_rgb:fffff3,c_fill,f_jpg/site/menu/Spring21-mens-Session-Jacket-Dark-Emerald-Messy.png"
+                                alt="coleccion harrier" style="background-size:cover; width:30%">
+                        </li>
+                        <li>
+                            <h4 class=" text-center sm:text-sm md:text-2xl lg:text-3xl">TOPS</h4>
+                            <img class="no-repeat  center center"
+                                src="https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,dpr_1.5,q_auto,w_350,h_350,b_rgb:fffff3,c_fill,f_jpg/site/menu/Spring21-Mens-Harrier-Long-Sleeve-Tamarind-Messy.png"
+                                alt="coleccion harrier" style="background-size:cover; width:30%">
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
         </header>
-        <div class="text-center text-white  font-sans items-center justify-center pt-40 sm:pt-10">
-            <h1 class="text-6xl leading-none uppercase w-4/12 mx-auto text-center" style="max-width: 480px;">the thaw
+
+        <div
+            class="text-center text-white  font-sans items-center justify-center pt-40 sm:pt-10 overflow-hidden mx-auto">
+            <h1 class="md:text-6xl sm:text-4xl leading-none uppercase w-4/12 mx-auto text-center"
+                style="max-width: 480px;">the thaw
                 begins</h1>
             <p class="mb-6 pt-3"> Introducing our Spring Collection</p>
-            <p class="text-center mt-20">
-                <a class="inline-block uppercase py-6 px-4 bg-brownbutton  mr-10" href="#">Shop new Arrivals</a>
-                <a class="inline-block uppercase py-6 px-4 bg-brownbutton" href="#">View lookbook</a>
+            <p class="text-center mt-20 ">
+                <button class="inline-block uppercase py-6 px-4 bg-brownbutton mr-10 " href="#"
+                    style="min-width: 180px;">Shop new Arrivals</button>
+                <button class="inline-block uppercase py-6 px-4 bg-brownbutton" href="#" style="min-width: 180px;">View
+                    lookbook</button>
             </p>
         </div>
     </div>
 
     <section>
-        <div class="flex text-white">
-            <div class="w-1/2 flex justify-center items-center "
-                style="background: url(https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,dpr_1.5,q_auto,w_800,h_600,c_fill,f_auto/site/Products/Hare-AC-Membership/Hare_AC_Collateral_BibCloseup_2060.jpg) no-repeat center center;background-size:cover">
+        <div class=" text-white grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 ">
+            <div class=" flex justify-center items-center "
+                style="background: url(https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,dpr_1.5,q_auto,w_800,h_600,c_fill,f_auto/site/Products/Hare-AC-Membership/Hare_AC_Collateral_BibCloseup_2060.jpg) no-repeat center center;background-size:cover ;width: 100%;">
 
-                <div class="p-64 text-center">
-                    <h3 class="text-5xl">HARE A.C.</h3><br />
+                <div class="py-64 text-center ">
+                    <h3 class="md:text-5xl sm:text-3xl">HARE A.C.</h3><br />
                     <p>Become a Member Today
                     </p><br />
                     <button class="py-5 px-10 bg-brownbutton">JOIN THE CLUB</button>
                 </div>
             </div>
-            <div class="w-1/2 flex justify-center items-center"
-                style="background: url(https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,dpr_1.5,q_auto,w_800,h_600,c_fill,f_auto/site/bw-5616.jpg) no-repeat center center;background-size:cover">
-                <div class="p-64 text-center">
-                    <h3 class="text-5xl"> NEWSLETTERS </h3><br />
+            <div class=" flex justify-center items-center"
+                style="background: url(https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,dpr_1.5,q_auto,w_800,h_600,c_fill,f_auto/site/bw-5616.jpg) no-repeat center center;background-size:cover;width: 100%;">
+                <div class=" py-64 text-center">
+                    <h3 class="md:text-5xl sm:text-3xl"> NEWSLETTERS </h3><br />
                     <p>Let's Talk About Running
                     </p><br />
                     <button class="py-5 px-10 bg-brownbutton">SUSCRIBE</button>
@@ -136,23 +184,27 @@
 
 
     <div class=" bg-backgroundMain flex flex-col ">
-        <div class="flex flex-col justify-center items-center">
+        <div class="flex flex-col justify-center items-center overflow-hidden">
 
-            <h3 class="text-brownbutton text-center text-5xl pt-24 w-3/12"> SEASONAL ESSENTIALS</h3><br />
-            <p class="text-center w-3/12 sm:mb-20 mb-40 text-textcolorP text-sm">Spring is a hopeful season. For runners, that
+            <h3 class="text-brownbutton text-center sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl pt-24 w-3/12">
+                SEASONAL ESSENTIALS</h3><br />
+            <p class="text-center w-3/12 sm:mb-20 mb-40 md:mb-40 text-textcolorP text-sm">Spring is a hopeful season.
+                For runners, that
                 means
                 emerging from
                 the strain of a long winter and embracing new goals. Our Spring '21 Collection reflects the season's
                 optimism and provides tools for working hard on the roads and track.</p>
         </div>
         <section class="container mx-auto">
-            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-20 overflow-hidden ml-28 mr-28 mb-14 mt-4">
-                <div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-20 ml-28 mr-28 mb-14 mt-4 ">
+                <div class="">
                     <div>
-                        <img  class="no-repeat  center center" src="https://cdn.tracksmith.com/uploads/Homepage-Collection-Images-Harrier.jpg" alt="" style="background-size:cover; width:100%; max-width:100%">
+                        <img class="no-repeat  center center"
+                            src="https://cdn.tracksmith.com/uploads/Homepage-Collection-Images-Harrier.jpg"
+                            alt="coleccion harrier" style="background-size:cover; width:100%; max-width:100%">
                     </div>
                     <br />
-                    <h4 class="text-3xl text-center">HARRIER</h4>
+                    <h4 class=" text-center sm:text-sm md:text-2xl lg:text-3xl">HARRIER</h4>
                     <br />
                     <p class="text-textcolorP text-center">Merino wool is at its best when Mother Nature is at her
                         most fickle. Our versatile Harrier
@@ -162,13 +214,15 @@
                         class="hover:text-brownbutton flex items-center justify-center  mt-3 text-brownbutton underline">Shop
                         Collection →</a>
                 </div>
-                <div>
+                <div class="overflow-visible">
                     <div>
-                        
-                        <img class="no-repeat  center center" src="https://cdn.tracksmith.com/uploads/Homepage-Collection-Images-VC.jpg" alt="" style="background-size:cover; width:100%; max-width:100%">
+
+                        <img class="no-repeat  center center"
+                            src="https://cdn.tracksmith.com/uploads/Homepage-Collection-Images-VC.jpg"
+                            alt="coleccion VC" style="background-size:cover; width:100%; max-width:100%">
                     </div>
                     <br />
-                    <h4 class="text-3xl text-center">VAN CORTLANDT
+                    <h4 class="sm:text-sm md:text-2xl lg:text-3xl text-center">VAN CORTLANDT
                     </h4>
                     <br />
                     <p class="text-textcolorP text-center">A testament to our belief that race day is sacred, the
@@ -178,12 +232,14 @@
                         class="hover:text-brownbutton flex items-center justify-center mt-3 text-brownbutton underline">Shop
                         Collection →</a>
                 </div>
-                <div>
+                <div class="overflow-visible">
                     <div>
-                        <img class="no-repeat  center center" src="https://cdn.tracksmith.com/uploads/Homepage-Collection-Images-Session.jpg" alt="" style="background-size:cover; width:100%; max-width:100%">
+                        <img class="no-repeat  center center"
+                            src="https://cdn.tracksmith.com/uploads/Homepage-Collection-Images-Session.jpg"
+                            alt="coleccion session" style="background-size:cover; width:100%; max-width:100%">
                     </div>
                     <br />
-                    <h4 class="text-3xl text-center">SESSION
+                    <h4 class="sm:text-sm md:text-2xl lg:text-3xl text-center">SESSION
                     </h4>
                     <br />
                     <p class="text-textcolorP text-center">These training essentials are designed to be staples of
@@ -194,12 +250,14 @@
                         Collection →</a>
                 </div>
 
-                <div class="">
+                <div class="overflow-visible">
                     <div>
-                        <img class="no-repeat  center center" src="https://cdn.tracksmith.com/uploads/Homepage-Collection-Images-Twilight.jpg" alt="" style="background-size:cover; width:100%; max-width:100%">
+                        <img class="no-repeat  center center"
+                            src="https://cdn.tracksmith.com/uploads/Homepage-Collection-Images-Twilight.jpg"
+                            alt="coleccion twilight" style="background-size:cover; width:100%; max-width:100%">
                     </div>
                     <br />
-                    <h4 class="text-3xl text-center">TWILIGHT</h4>
+                    <h4 class="sm:text-sm md:text-2xl lg:text-3xl text-center">TWILIGHT</h4>
                     <br />
                     <p class="text-textcolorP text-center">These understated staples were inspired by the summer
                         tradition of twilight meets. Designed for running hard in warmer temperatures, these no-fuss
@@ -208,12 +266,14 @@
                         class="hover:text-brownbutton flex items-center justify-center mt-3 text-brownbutton underline">Shop
                         Collection →</a>
                 </div>
-                <div>
+                <div class="overflow-visible">
                     <div>
-                        <img class="no-repeat  center center" src="https://cdn.tracksmith.com/uploads/Homepage-Collection-Images-Allston.jpg" alt="" style="background-size:cover; width:100%; max-width:100%">
+                        <img class="no-repeat  center center"
+                            src="https://cdn.tracksmith.com/uploads/Homepage-Collection-Images-Allston.jpg"
+                            alt="coleccion allston" style="background-size:cover; width:100%; max-width:100%">
                     </div>
                     <br />
-                    <h4 class="text-3xl text-center">ALLSTON</h4>
+                    <h4 class="sm:text-sm md:text-2xl lg:text-3xl text-center">ALLSTON</h4>
                     <br />
                     <p class="text-textcolorP">Designed for higher intensity training and for those
                         runners who prefer a more compressive fit. These streamlined and sophisticated silhouettes are
@@ -222,12 +282,14 @@
                         class="hover:text-brownbutton flex items-center justify-center mt-3 text-brownbutton underline">Shop
                         Collection →</a>
                 </div>
-                <div>
+                <div class="overflow-visible">
                     <div>
-                        <img class="no-repeat  center center" src="https://cdn.tracksmith.com/uploads/Homepage-Collection-Images-Trackhouse.jpg" alt="" style="background-size:cover; width:100%; max-width:100%">
+                        <img class="no-repeat  center center"
+                            src="https://cdn.tracksmith.com/uploads/Homepage-Collection-Images-Trackhouse.jpg"
+                            alt="coleccion trackhouse" style="background-size:cover; width:100%; max-width:100%">
                     </div>
                     <br />
-                    <h4 class="text-3xl text-center">TRACKHOUSE</h4>
+                    <h4 class="sm:text-sm md:text-2xl lg:text-3xl text-center">TRACKHOUSE</h4>
                     <br />
                     <p class="text-textcolorP text-center">Like the team-issued sweatshirts you coveted in your
                         parent’s closet, Trackhouse is crafted to get better with age. Made from durable reverse-weave
@@ -249,12 +311,14 @@
     </section>
 
     <!-- Swiper -->
+
     <div class="swiper-container">
         <div class="swiper-wrapper">
             <div class="swiper-slide"
                 style="background: url(https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,dpr_1.5,q_auto,w_1700,c_fill,f_auto/site/Journal/MarathonProject2020/tracksmith-marathon-project-45-1.jpg)no-repeat center center;background-size:cover">
                 <div>
-                    <h1 class="text-white uppercase text-6xl mb-10 "> the marathon project</h1>
+                    <h1 class="text-white uppercase sm:text-3xl md:text-5xl lg:text-6xl mb-10 "> the marathon project
+                    </h1>
                     <p class="text-white  mb-10 "> The only race of 2020,and also the best</p>
                     <button class="uppercase px-10 py-5 bg-brownbutton text-white text-letraPrincipal">Read
                         more</button>
@@ -263,7 +327,7 @@
             <div class="swiper-slide"
                 style="background: url(https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,dpr_1.5,q_auto,w_1700,c_fill,f_auto/site/hp-fan.jpg)no-repeat center center;background-size:cover">
                 <div>
-                    <h1 class="text-white uppercase text-6xl mb-10 "> run commute</h1>
+                    <h1 class="text-white uppercase sm:text-3xl md:text-5xl lg:text-6xl mb-10 "> run commute</h1>
                     <p class="text-white  mb-10 "> The Tracksmith Guide to Utility Running</p>
                     <button class="uppercase px-10 py-5 bg-brownbutton text-white text-sans">Read
                         more</button>
@@ -272,7 +336,7 @@
             <div class="swiper-slide"
                 style="background: url(https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,dpr_1.5,q_auto,w_1700,c_fill,f_auto/site/Journal/The-Funnel/2014_MeterMag-4-1-1.jpg)no-repeat center center;background-size:cover">
                 <div>
-                    <h1 class="text-white uppercase text-6xl mb-10 "> the funnel</h1>
+                    <h1 class="text-white uppercase sm:text-3xl md:text-5xl lg:text-6xl mb-10 "> the funnel</h1>
                     <p class="text-white  mb-10 "> On the global funding of Track and Field</p>
                     <button class="uppercase px-10 py-5 bg-brownbutton text-white text-sans">Read
                         more</button>
@@ -316,54 +380,61 @@
         </div>
     </section>
     <section class=" bg-backgroundMain flex justify-center items-center overflow-hidden ">
+        <div class="  grid grid-cols-1 sm:grid-cols-2" style="width: 100%;">
 
-        <div class="w-1/2">
-            <div class="flex justify-center items-center">
-                <img src="https://cdn.tracksmith.com/uploads/Home/logo-gold-45dac3aefc00f5e9979e4362488b0942.png"
-                    class="p-24 h-64" alt="imagenLogotipoConejo">
-            </div>
-            <div class="flex justify-center items-center">
-                <p class="text-center w-8/12 mb-12 text-textcolorP">Tracksmith crafts performance running apparel,
-                    inspiring
-                    publications and distinct experiences that allow runners to indulge in the sport’s rich culture.</p>
-            </div>
-            <div class="flex justify-center items-center">
-                <button class="text-white bg-brownbutton py-5 px-12 uppercase ">
-                    <p>Learn More</p>
-                </button>
-            </div>
-        </div>
-        <div class="py-20 bg-backgroundMain w-1/2 "
-            style="background: url(https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,dpr_1.5,q_auto,w_800,h_600,c_fill,f_auto/site/Pages/Trackhouse/HalfonHalf-Tracksmith-9984.jpg) center center no-repeat;background-size:cover">
-            <div class="m-auto max-w-xl">
+            <div class="py-28 flex-col justify-center items-center px-8">
                 <div class="flex justify-center items-center">
-                    <img src="https://cdn.tracksmith.com/uploads/Home/Trackhouse-Home-Antique-White.png"
-                        alt="imagenLogotipoOficial" class="p-16  flex-shrink-0">
+                    <img src="https://cdn.tracksmith.com/uploads/Home/logo-gold-45dac3aefc00f5e9979e4362488b0942.png"
+                        class="w-24 h-24" alt="imagenLogotipoConejo">
+                </div>
+                <div class="flex justify-center items-center py-5">
+                    <p class="text-center w-4/12 mb-12 text-textcolorP">Tracksmith crafts performance running apparel,
+                        inspiring
+                        publications and distinct experiences that allow runners to indulge in the sport’s rich culture.
+                    </p>
                 </div>
                 <div class="flex justify-center items-center">
-                    <p class="text-white text-center w-64 pb-8">Located at 285 Newbury Street in Boston’s historic Back
-                        Bay,
-                        the
-                        Trackhouse is our first retail store and a community hub for runners. </p>
-                </div>
-                <div class="flex justify-center items-center">
-                    <button class="text-white bg-brownbutton py-6 px-16">
-                        <p>Run with us</p>
+                    <button class="text-white bg-brownbutton py-5 px-12 uppercase mx-auto">
+                        <p>Learn More</p>
                     </button>
+                </div>
+            </div>
+            <div class="py-20 bg-backgroundMain"
+                style="background: url(https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,dpr_1.5,q_auto,w_800,h_600,c_fill,f_auto/site/Pages/Trackhouse/HalfonHalf-Tracksmith-9984.jpg) center center no-repeat;background-size:cover">
+                <div class="m-auto max-w-xl">
+                    <div class="flex justify-center items-center">
+                        <img src="https://cdn.tracksmith.com/uploads/Home/Trackhouse-Home-Antique-White.png"
+                            alt="imagenLogotipoOficial" class="p-16  flex-shrink-0">
+                    </div>
+                    <div class="flex justify-center items-center">
+                        <p class="text-white text-center w-64 pb-8">Located at 285 Newbury Street in Boston’s historic
+                            Back
+                            Bay,
+                            the
+                            Trackhouse is our first retail store and a community hub for runners. </p>
+                    </div>
+                    <div class="flex justify-center items-center ">
+                        <button class="text-white bg-brownbutton py-6 px-16 mx-auto">
+                            <p>Run with us</p>
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
 
 
     </section>
-    <section class="p-8 bg-white">
-        <h5 class="text-center text-2xl pb-5 uppercase">Join our newsletter </h5>
-        <div class="flex justify-center items-center">
-            <form action="">
-                <input type="text" class="border-2 border-brownbutton p-5" placeholder="Enter your email">
-                <button class="bg-brownbutton py-5 px-10 uppercase">Join</button>
-            </form>
-        </div>
+    <section class="p-8 bg-white overflow-hidden text-center">
+        <h5 class=" sm:text-lg md:text-2xl pb-5 uppercase">Join our newsletter </h5>
+        <form action="" class="relative">
+            <div class="inline-flex ">
+
+                <input type="text" class="border-2 border-brownbutton sm:px-8 sm:py-3 md:px-10 md:py-5"
+                    placeholder="Enter your email">
+                <button class="bg-brownbutton  sm:px-8 sm:py-3 md:px-12 md:py-5 uppercase leading-relaxed">Join</button>
+
+            </div>
+        </form>
     </section>
 
     <footer class="bg-colorFooter pt-16  z-index:0">
