@@ -12,7 +12,9 @@ module.exports = {
 			  'colorFooter': '#0a1e32',
 			  'backgroundMain':'#fffff3',
 			  'textcolorP': '#5c6469',
-			  'backgroundButtonSwipper':'#e3b151'
+			  'backgroundButtonSwipper':'#e3b151',
+
+			 
 			},
 			fontFamily: {
 				'sans': 'Heebo, sans-serif',
