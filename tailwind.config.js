@@ -13,7 +13,7 @@ module.exports = {
 			  'backgroundMain':'#fffff3',
 			  'textcolorP': '#5c6469',
 			  'backgroundButtonSwipper':'#e3b151',
-
+			  
 			 
 			},
 			fontFamily: {

@@ -50,4 +50,26 @@ body {
   -webkit-align-items: center;
   align-items: center;
 }
+.card-zoom-image {
+  @apply   transition-all duration-500 ease-in-out transform bg-center bg-cover;
+}
+.card-zoom:hover .card-zoom-image {
+  @apply scale-110;
+}
+.card-zoom:hover .card-zoom-text {
+  @apply scale-105;
+}
+main {
+
+  position: relative;
+  width: 100%;
+  
+  
+}
+footer{
+  width: 100%;
+ 
+  bottom: 0;
+  z-index: 0
+}
 @tailwind utilities;
