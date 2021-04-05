@@ -1,0 +1,304 @@
+---
+title: "Página Principal"
+---
+{% extends "layouts/default.njk" %}
+
+{% block content %}
+
+    <div class="bg-brownbutton p-0.5"></div>
+    <div class=" h-screen z-index:10"
+        style="  
+            background: url(https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,dpr_1.5,q_auto,w_1700,c_fill,f_auto/site/TS_Spring21_005200.jpg) no-repeat center center; background-size: cover">
+    {% include "partials/top.njk" %}
+    <div
+            class="text-center text-white  font-sans items-center justify-center pt-40 sm:pt-10 overflow-hidden mx-auto">
+            <h1 class="md:text-6xl sm:text-4xl leading-none uppercase w-4/12 mx-auto text-center"
+                style="max-width: 480px;">the thaw
+                begins</h1>
+            <p class="mb-6 pt-3"> Introducing our Spring Collection</p>
+            <p class="text-center sm:mt-10 md:mt-20">
+                <button class="inline-block uppercase py-6 px-4 bg-brownbutton sm:mb-2 md:mr-10 " href="#"
+                    style="min-width: 180px;">Shop new Arrivals</button>
+                <button class="inline-block uppercase py-6 px-4 bg-brownbutton" href="#" style="min-width: 180px;">View
+                    lookbook</button>
+            </p>
+        </div>
+</div>
+    <section>
+        <div class=" text-white grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 ">
+            <div class=" flex justify-center items-center "
+                style="background: url(https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,dpr_1.5,q_auto,w_800,h_600,c_fill,f_auto/site/Products/Hare-AC-Membership/Hare_AC_Collateral_BibCloseup_2060.jpg) no-repeat center center;background-size:cover ;width: 100%;">
+
+                <div class="py-64 text-center ">
+                    <h3 class="md:text-5xl sm:text-3xl">HARE A.C.</h3><br />
+                    <p>Become a Member Today
+                    </p><br />
+                    <button class="py-5 px-10 bg-brownbutton">JOIN THE CLUB</button>
+                </div>
+            </div>
+            <div class=" flex justify-center items-center"
+                style="background: url(https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,dpr_1.5,q_auto,w_800,h_600,c_fill,f_auto/site/bw-5616.jpg) no-repeat center center;background-size:cover;width: 100%;">
+                <div class=" py-64 text-center">
+                    <h3 class="md:text-5xl sm:text-3xl"> NEWSLETTERS </h3><br />
+                    <p>Let's Talk About Running
+                    </p><br />
+                    <button class="py-5 px-10 bg-brownbutton">SUSCRIBE</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class=" bg-backgroundMain flex flex-col ">
+        <div class="flex flex-col justify-center items-center overflow-hidden">
+
+            <h3 class="text-brownbutton text-center sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl pt-24 w-3/12">
+                SEASONAL ESSENTIALS</h3><br />
+            <p class="text-center w-3/12 sm:mb-20 mb-40 md:mb-40 text-textcolorP text-sm">Spring is a hopeful season.
+                For runners, that
+                means
+                emerging from
+                the strain of a long winter and embracing new goals. Our Spring '21 Collection reflects the season's
+                optimism and provides tools for working hard on the roads and track.</p>
+        </div>
+        <section class="container mx-auto">
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-20 ml-28 mr-28 mb-14 mt-4 ">
+                <div class="">
+                    <div>
+                        <img class="no-repeat  center center"
+                            src="https://cdn.tracksmith.com/uploads/Homepage-Collection-Images-Harrier.jpg"
+                            alt="coleccion harrier" style="background-size:cover; width:100%; max-width:100%">
+                    </div>
+                    <br />
+                    <h4 class=" text-center sm:text-sm md:text-2xl lg:text-3xl">HARRIER</h4>
+                    <br />
+                    <p class="text-textcolorP text-center">Merino wool is at its best when Mother Nature is at her
+                        most fickle. Our versatile Harrier
+                        tops are staples for shoulder season, keeping you warm when it’s cold, and cool as the
+                        temperature and pace start picking up.</p>
+                    <a href="#"
+                        class="hover:text-brownbutton flex items-center justify-center  mt-3 text-brownbutton underline">Shop
+                        Collection →</a>
+                </div>
+                <div class="overflow-visible">
+                    <div>
+
+                        <img class="no-repeat  center center"
+                            src="https://cdn.tracksmith.com/uploads/Homepage-Collection-Images-VC.jpg"
+                            alt="coleccion VC" style="background-size:cover; width:100%; max-width:100%">
+                    </div>
+                    <br />
+                    <h4 class="sm:text-sm md:text-2xl lg:text-3xl text-center">VAN CORTLANDT
+                    </h4>
+                    <br />
+                    <p class="text-textcolorP text-center">A testament to our belief that race day is sacred, the
+                        pieces in our Van Cortlandt Collection
+                        are distinguished by our signature sash and luxurious 2:09 Mesh. These are classic
+                        silhouettes designed for making statements.</p> <a href=""
+                        class="hover:text-brownbutton flex items-center justify-center mt-3 text-brownbutton underline">Shop
+                        Collection →</a>
+                </div>
+                <div class="overflow-visible">
+                    <div>
+                        <img class="no-repeat  center center"
+                            src="https://cdn.tracksmith.com/uploads/Homepage-Collection-Images-Session.jpg"
+                            alt="coleccion session" style="background-size:cover; width:100%; max-width:100%">
+                    </div>
+                    <br />
+                    <h4 class="sm:text-sm md:text-2xl lg:text-3xl text-center">SESSION
+                    </h4>
+                    <br />
+                    <p class="text-textcolorP text-center">These training essentials are designed to be staples of
+                        your running wardrobe, working just
+                        as well for long runs as they do easy days. They feature our Veloce Blend, an incredibly
+                        lightweight stretch knit from Italy.</p> <a href=""
+                        class="hover:text-brownbutton flex items-center justify-center mt-3 text-brownbutton underline">Shop
+                        Collection →</a>
+                </div>
+
+                <div class="overflow-visible">
+                    <div>
+                        <img class="no-repeat  center center"
+                            src="https://cdn.tracksmith.com/uploads/Homepage-Collection-Images-Twilight.jpg"
+                            alt="coleccion twilight" style="background-size:cover; width:100%; max-width:100%">
+                    </div>
+                    <br />
+                    <h4 class="sm:text-sm md:text-2xl lg:text-3xl text-center">TWILIGHT</h4>
+                    <br />
+                    <p class="text-textcolorP text-center">These understated staples were inspired by the summer
+                        tradition of twilight meets. Designed for running hard in warmer temperatures, these no-fuss
+                        tops and bottoms are made from our light-as-air Bravio Blend.
+                    </p> <a href=""
+                        class="hover:text-brownbutton flex items-center justify-center mt-3 text-brownbutton underline">Shop
+                        Collection →</a>
+                </div>
+                <div class="overflow-visible">
+                    <div>
+                        <img class="no-repeat  center center"
+                            src="https://cdn.tracksmith.com/uploads/Homepage-Collection-Images-Allston.jpg"
+                            alt="coleccion allston" style="background-size:cover; width:100%; max-width:100%">
+                    </div>
+                    <br />
+                    <h4 class="sm:text-sm md:text-2xl lg:text-3xl text-center">ALLSTON</h4>
+                    <br />
+                    <p class="text-textcolorP">Designed for higher intensity training and for those
+                        runners who prefer a more compressive fit. These streamlined and sophisticated silhouettes are
+                        built for pushing the pace, whether in a marathon or on the track.
+                    </p> <a href=""
+                        class="hover:text-brownbutton flex items-center justify-center mt-3 text-brownbutton underline">Shop
+                        Collection →</a>
+                </div>
+                <div class="overflow-visible">
+                    <div>
+                        <img class="no-repeat  center center"
+                            src="https://cdn.tracksmith.com/uploads/Homepage-Collection-Images-Trackhouse.jpg"
+                            alt="coleccion trackhouse" style="background-size:cover; width:100%; max-width:100%">
+                    </div>
+                    <br />
+                    <h4 class="sm:text-sm md:text-2xl lg:text-3xl text-center">TRACKHOUSE</h4>
+                    <br />
+                    <p class="text-textcolorP text-center">Like the team-issued sweatshirts you coveted in your
+                        parent’s closet, Trackhouse is crafted to get better with age. Made from durable reverse-weave
+                        cotton with classic details to ensure these will wear in, not out.
+                    </p> <a href=""
+                        class="hover:text-brownbutton flex items-center justify-center mt-3 text-brownbutton underline">Shop
+                        Collection →</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <section class="bg-backgroundMain py-8 pb-16">
+        <div class=" flex flex-col mt-24 justify-center items-center">
+            <h3 class="text-brownbutton text-center text-5xl uppercase"> The Journal</h3><br />
+            <p class=" text-center w-5/12 mt-4 mb-10 text-textcolorP ">Stories and reflections on the hidden side of
+                running culture and at the
+                athletes, traditions and events that make running the greatest sport in the world. </p>
+        </div>
+    </section>
+
+    <!-- Swiper -->
+
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"
+                style="background: url(https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,dpr_1.5,q_auto,w_1700,c_fill,f_auto/site/Journal/MarathonProject2020/tracksmith-marathon-project-45-1.jpg)no-repeat center center;background-size:cover">
+                <div>
+                    <h1 class="text-white uppercase sm:text-3xl md:text-5xl lg:text-6xl mb-10 "> the marathon project
+                    </h1>
+                    <p class="text-white  mb-10 "> The only race of 2020,and also the best</p>
+                    <button class="uppercase px-10 py-5 bg-brownbutton text-white text-letraPrincipal">Read
+                        more</button>
+                </div>
+            </div>
+            <div class="swiper-slide"
+                style="background: url(https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,dpr_1.5,q_auto,w_1700,c_fill,f_auto/site/hp-fan.jpg)no-repeat center center;background-size:cover">
+                <div>
+                    <h1 class="text-white uppercase sm:text-3xl md:text-5xl lg:text-6xl mb-10 "> run commute</h1>
+                    <p class="text-white  mb-10 "> The Tracksmith Guide to Utility Running</p>
+                    <button class="uppercase px-10 py-5 bg-brownbutton text-white text-sans">Read
+                        more</button>
+                </div>
+            </div>
+            <div class="swiper-slide"
+                style="background: url(https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,dpr_1.5,q_auto,w_1700,c_fill,f_auto/site/Journal/The-Funnel/2014_MeterMag-4-1-1.jpg)no-repeat center center;background-size:cover">
+                <div>
+                    <h1 class="text-white uppercase sm:text-3xl md:text-5xl lg:text-6xl mb-10 "> the funnel</h1>
+                    <p class="text-white  mb-10 "> On the global funding of Track and Field</p>
+                    <button class="uppercase px-10 py-5 bg-brownbutton text-white text-sans">Read
+                        more</button>
+                </div>
+
+            </div>
+            <div class="swiper-slide"
+                style="background: url(https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,dpr_1.5,q_auto,w_600,h_1000,c_fill,f_auto/site/Navy-Background-03-sm.jpg)">
+                <div>
+                    <p class="mb-10 flex justify-center items-center"><img
+                            src="https://cdn.tracksmith.com/uploads/Journal/Amateur-Campaign/Amateur-Hero.png"
+                            style="width:50%;height: 40%;"></p>
+                    <p class="text-white mb-10"> For the Love.</p>
+                    <button class="uppercase py-5 px-10 bg-backgroundButtonSwipper text-white text-sans">Learn
+                        more</button>
+                </div>
+            </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="../package/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            pagination: {
+                el: '.swiper-pagination',
+            },
+        });
+    </script>
+    <section class=" bg-backgroundMain py-8 pb-16">
+        <div class=" flex flex-col justify-center items-center">
+            <h3 class="text-brownbutton text-center text-5xl uppercase pt-10">About us</h3>
+            <p class=" text-center w-5/12 text-textcolorP mt-6">Founded in Boston in 2014, Tracksmith is an independent
+                running brand built
+                on a deep love for the sport. We celebrate the amateur spirit and seek to inspire the personal pursuit
+                of excellence</p>
+        </div>
+    </section>
+    <section class=" bg-backgroundMain flex justify-center items-center overflow-hidden ">
+        <div class="  grid grid-cols-1 sm:grid-cols-2" style="width: 100%;">
+            <div class="m-auto max-w-xl">
+                <div class="py-20 flex-col justify-center items-center ">
+
+                    <div class="flex justify-center items-center">
+                        <img src="https://cdn.tracksmith.com/uploads/Home/logo-gold-45dac3aefc00f5e9979e4362488b0942.png"
+                            class="w-20 h-22 mt-10" alt="imagenLogotipoConejo">
+                    </div>
+                    <div class="flex justify-center items-center">
+                        <p class="text-center w-64 mt-10 mb-4  text-textcolorP">Tracksmith crafts performance running
+                            apparel,
+                            inspiring
+                            publications and distinct experiences that allow runners to indulge in the sport’s rich
+                            culture.
+                        </p>
+                    </div>
+                    <div class="flex justify-center mt-6  items-center">
+                        <button class="text-white bg-brownbutton py-5 px-12 uppercase mx-auto">
+                            <p>Learn More</p>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="py-20 bg-backgroundMain"
+                style="background: url(https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,dpr_1.5,q_auto,w_800,h_600,c_fill,f_auto/site/Pages/Trackhouse/HalfonHalf-Tracksmith-9984.jpg) center center no-repeat;background-size:cover">
+                <div class="m-auto max-w-xl">
+                    <div class="flex justify-center items-center">
+                        <img src="https://cdn.tracksmith.com/uploads/Home/Trackhouse-Home-Antique-White.png"
+                            alt="imagenLogotipoOficial" class="p-10 w-36 h-28 ">
+                    </div>
+                    <div class="flex justify-center items-center">
+                        <p class="text-white text-center w-64 pb-8 ">Located at 285 Newbury Street in Boston’s historic
+                            Back
+                            Bay,
+                            the
+                            Trackhouse is our first retail store and a community hub for runners. </p>
+                    </div>
+                    <div class="flex justify-center items-center ">
+                        <button class="text-white bg-brownbutton py-5 px-12 mx-auto">
+                            <p class="uppercase">Run with us</p>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+    {% include "partials/newsletter.njk" %}
+
+    
+    </section>
+    {% include "partials/footer.njk" %}
+    </div>
+    {% endblock %}

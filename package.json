@@ -16,9 +16,9 @@
     "tailwindcss": "^2.0.4"
   },
   "scripts": {
-    "dev": "npx run-p postcss liveserver",
+    "dev": "npx run-p postcss eleventy",
     "postcss": "npx postcss src/css/style.css -o dist/style.css --env development -w --verbose",
-    "liveserver": "npx live-server --open='./dist'"
+    "eleventy": "npx @11ty/eleventy --serve"
   },
   "author": "",
   "license": "ISC",
