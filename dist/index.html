@@ -26,7 +26,7 @@
     
 
         <header class=" hover:bg-white h-40 relative">
-            <nav class="container  uppercase pt-16 mx-auto h-40 text-white hover:text-black ">
+            <nav class="container  uppercase pt-16 sm:mx-auto md: mx-0 lg:mx-auto h-40 text-white hover:text-black ">
                 <div class="flex justify-between mx-auto relative " style="max-width: 90%">
                     <div class="flex none sm:space-x-4 sm:float-left md:hidden">
                         <a href="" class="hover:text-brownbutton flex mx-auto justify-center items-center">
@@ -36,9 +36,10 @@
 
                         </a>
                     </div>
-                    <div class="hidden md:flex md:space-x-4 md:float-left " style="width: auto">
+                    <div class="hidden md:flex md:space-x-2 lg:space-x-4 md:float-left
+                    " style="width: auto">
                         <a href="" class="hover:text-brownbutton flex justify-center items-center ">
-                            <p class="uppercase">Men</p><button class="flex items-center justify-center">
+                            <p class="uppercase md:text-xs lg:text-sm">Men</p><button class="flex items-center justify-center">
 
                                 <svg class="w-4 h-4 mx-auto text-brownbutton" fill="none" stroke="currentColor"
                                     viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -50,7 +51,7 @@
                         </a>
                         <a href="" class="hover:text-brownbutton flex mx-auto justify-between items-center"><button
                                 class="flex items-center justify-center">
-                                <p class="uppercase">Women</p><svg class="w-4 h-4 ml-1 text-brownbutton" fill="none"
+                                <p class="uppercase md:text-xs lg:text-sm">Women</p><svg class="w-4 h-4 ml-1 text-brownbutton" fill="none"
                                     stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                         d="M19 9l-7 7-7-7">
@@ -58,10 +59,10 @@
                                 </svg>
                             </button></a>
                         <a href="" class="hover:text-brownbutton flex mx-auto justify-center items-center ">
-                            <p class="uppercase ">Accessories</p>
+                            <p class="uppercase  md:text-xs lg:text-sm">Accessories</p>
                         </a>
                         <a href="" class="hover:text-brownbutton flex mx-auto justify-center items-center">
-                            <p class="uppercase">New Arrivals</p>
+                            <p class="uppercase md:text-xs lg:text-sm">New Arrivals</p>
                         </a>
                     </div>
                     <div class="flex justify-center mx-auto items-center w-auto ">
@@ -82,15 +83,15 @@
                             </svg>
                     </div>
 
-                    <div class="flex none sm:space-x-4 sm:float-right md:hidden">
+                    <div class="flex none md:space-x-4 sm:float-right md:hidden">
                         <a href="" class="hover:text-brownbutton flex mx-auto justify-center items-center">
                             <p class>cart</p>
                         </a>
                     </div>
-                    <div class=" hidden md:flex md:space-x-4 md:float-right ">
+                    <div class=" hidden md:flex md:space-x-2  lg:space-x-4 md:float-right ">
                         <a href="" class="hover:text-brownbutton flex mx-auto justify-center items-center"><button
                                 class="flex items-center justify-center">
-                                <p class="uppercase block">Journal</p><svg class="w-4 h-4 ml-1 text-brownbutton"
+                                <p class="uppercase block md:text-xs lg:text-sm">Journal</p><svg class="w-4 h-4 ml-1 text-brownbutton"
                                     fill="none" stroke="currentColor" viewBox="0 0 24 24"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -99,7 +100,7 @@
                             </button></a>
                         <a href="" class="hover:text-brownbutton flex mx-auto justify-center items-center"><button
                                 class="flex items-center justify-center">
-                                <p class="uppercase block">Programas</p><svg class="w-4 h-4 ml-1 text-brownbutton"
+                                <p class="uppercase block md:text-xs lg:text-sm">Programas</p><svg class="w-4 h-4 ml-1 text-brownbutton"
                                     fill="none" stroke="currentColor" viewBox="0 0 24 24"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -108,13 +109,13 @@
                             </button></a>
 
                         <a href="" class="hover:text-brownbutton flex mx-auto justify-center items-center ">
-                            <p>About</p>
+                            <p class="md:text-xs lg:text-sm">About</p>
                         </a>
                         <a href="" class="hover:text-brownbutton flex mx-auto justify-center items-center">
-                            <p>Login</p>
+                            <p class="md:text-xs lg:text-sm">Login</p>
                         </a>
                         <a href="" class="hover:text-brownbutton flex mx-auto justify-center items-center">
-                            <p>Cart</p>
+                            <p class="md:text-xs lg:text-sm">Cart</p>
                         </a>
                     </div>
 
@@ -175,6 +176,7 @@
                     </ul>
 
                 </div>
+                
             </div>
         </header>
 
@@ -502,7 +504,7 @@
 
 
             </div>
-            <div class="ml-10 hover:text-brownbutton text-white text-center">
+            <div class="ml-10 hover:text-brownbutton text-white">
                 <div>
                     <p class="text-gray-700">VISIT US</p>
                 </div><br />
@@ -513,7 +515,7 @@
                     BOSTON, MA 02115
                 </a>
             </div>
-            <div class="ml-10 text-white text-center">
+            <div class="ml-10 text-white">
                 <div>
                     <p class="text-gray-700"> INFORMATION</p>
                 </div><br />
@@ -581,14 +583,24 @@
             </a>
 
         </div>
+        
         <div class="bg-brownbutton flex items-center justify-center">
             <a class="py-5 px-2 bg-white"></a>
             <a class="py-5 px-5 bg-red-600 "></a>
             <a class="py-5 px-2 bg-white"></a>
         </div>
+        
     </footer>
     </div>
     
+    <div class="relative">
+    <div class="absolute bottom-0 right-0">
+        <svg class="bg-brownbutton border-2 rounded-full h-12 w-12" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 100 131.3" enable-background="new 0 0 100 131.3" xml:space="preserve"> 
+            <path  style="fill: #fff;" d="M71.6,131.3c1,0,2.1-0.3,3.1-0.8c3.9-1.8,5.5-6.2,3.6-10.1c0,0-14.3-32.7-16.9-44.7c-1-4.2-1.6-15.3-1.8-20.5c0-1.8,1-3.4,2.6-3.9l32-9.6c3.9-1,6.2-5.5,5.2-9.4c-1-3.9-5.5-6.2-9.4-5.2c0,0-29.6,9.6-40.3,9.6c-10.4,0-39.8-9.4-39.8-9.4c-3.9-1-8.3,0.8-9.6,4.7c-1.3,4.2,1,8.6,5.2,9.6l32,9.6c1.6,0.5,2.9,2.1,2.6,3.9c-0.3,5.2-0.8,16.4-1.8,20.5c-2.6,12-16.9,44.7-16.9,44.7c-1.8,3.9,0,8.3,3.6,10.1c1,0.5,2.1,0.8,3.1,0.8c2.9,0,5.7-1.6,6.8-4.4l15.3-31.2l14.6,31.4C66.1,129.7,68.7,131.3,71.6,131.3z"></path>
+            <circle style="fill: #fff;" cx="50.3" cy="14.6" r="14.6"></circle>
+        </svg>
+    <div>
+</div>
 </body>
 
 </html>
