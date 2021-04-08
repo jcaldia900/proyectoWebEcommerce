@@ -618,7 +618,14 @@ body {
   padding: 0;
   
 }
+.menu-box{
+  display: none;
+}
 
+.menuopen{
+  display: block;
+  
+}
 .swiper-container {
   width: 100%;
   height: 90%;
@@ -788,6 +795,12 @@ footer{
 .mb-20{
 	margin-bottom: 5rem;
 }
+.mt-5{
+	margin-top: 1.25rem;
+}
+.mb-5{
+	margin-bottom: 1.25rem;
+}
 .flex{
 	display: flex;
 }
@@ -821,14 +834,14 @@ footer{
 .h-20{
 	height: 5rem;
 }
+.h-12{
+	height: 3rem;
+}
 .h-28{
 	height: 7rem;
 }
 .h-8{
 	height: 2rem;
-}
-.h-12{
-	height: 3rem;
 }
 .h-24{
 	height: 6rem;
@@ -847,6 +860,9 @@ footer{
 }
 .w-full{
 	width: 100%;
+}
+.w-12{
+	width: 3rem;
 }
 .w-4\/12{
 	width: 33.333333%;
@@ -869,9 +885,6 @@ footer{
 .w-8{
 	width: 2rem;
 }
-.w-12{
-	width: 3rem;
-}
 .w-8\/12{
 	width: 66.666667%;
 }
@@ -890,9 +903,6 @@ footer{
 .max-w-full{
 	max-width: 100%;
 }
-.max-w-xs{
-	max-width: 20rem;
-}
 .grid-cols-1{
 	grid-template-columns: repeat(1, minmax(0, 1fr));
 }
@@ -901,9 +911,6 @@ footer{
 }
 .flex-row{
 	flex-direction: row;
-}
-.flex-col-reverse{
-	flex-direction: column-reverse;
 }
 .content-center{
 	align-content: center;
@@ -1001,18 +1008,6 @@ footer{
 	--tw-bg-opacity: 1;
 	background-color: rgba(156, 163, 175, var(--tw-bg-opacity));
 }
-.bg-blue-900{
-	--tw-bg-opacity: 1;
-	background-color: rgba(30, 58, 138, var(--tw-bg-opacity));
-}
-.bg-yellow-900{
-	--tw-bg-opacity: 1;
-	background-color: rgba(120, 53, 15, var(--tw-bg-opacity));
-}
-.bg-gray-200{
-	--tw-bg-opacity: 1;
-	background-color: rgba(229, 231, 235, var(--tw-bg-opacity));
-}
 .bg-gray-800{
 	--tw-bg-opacity: 1;
 	background-color: rgba(31, 41, 55, var(--tw-bg-opacity));
@@ -1032,6 +1027,18 @@ footer{
 .bg-red-900{
 	--tw-bg-opacity: 1;
 	background-color: rgba(127, 29, 29, var(--tw-bg-opacity));
+}
+.bg-blue-900{
+	--tw-bg-opacity: 1;
+	background-color: rgba(30, 58, 138, var(--tw-bg-opacity));
+}
+.bg-gray-200{
+	--tw-bg-opacity: 1;
+	background-color: rgba(229, 231, 235, var(--tw-bg-opacity));
+}
+.bg-yellow-900{
+	--tw-bg-opacity: 1;
+	background-color: rgba(120, 53, 15, var(--tw-bg-opacity));
 }
 .bg-gray-100{
 	--tw-bg-opacity: 1;
@@ -1514,10 +1521,6 @@ footer{
 	.md\:text-lg{
 		font-size: 1.125rem;
 		line-height: 1.75rem;
-	}
-
-	.md\:grid-cols-1{
-		grid-template-columns: repeat(1, minmax(0, 1fr));
 	}
 }
 @media (min-width: 1024px){

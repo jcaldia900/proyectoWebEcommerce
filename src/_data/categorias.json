@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "nombre": "jackets",
+        "imagen": "https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,dpr_1.5,q_auto,w_350,h_350,b_rgb:fffff3,c_fill,f_jpg/site/menu/Spring21-mens-Session-Jacket-Dark-Emerald-Messy.png"
+      
+    },
+    {
+        "id":2,
+        "nombre": "tops",
+        "imagen": "https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,dpr_1.5,q_auto,w_350,h_350,b_rgb:fffff3,c_fill,f_jpg/site/menu/Spring21-Mens-Harrier-Long-Sleeve-Tamarind-Messy.png"
+      
+    },
+    {
+        "id":3,
+        "nombre": "bottons",
+        "imagen": "https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,dpr_1.5,q_auto,w_350,h_350,b_rgb:fffff3,c_fill,f_jpg/site/menu/Spring21-Mens-Session-Split-Shorts-Spruce-Messy.png"
+      
+    },
+    {
+        "id":4,
+        "nombre": "accesories",
+        "imagen": "https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,dpr_1.5,q_auto,w_350,h_350,b_rgb:fffff3,c_fill,f_jpg/site/menu/Spring21-Tube-Sock-Spruce-Ivory-Messy.png"
+      
+    }
+]

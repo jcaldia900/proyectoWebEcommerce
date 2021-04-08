@@ -1,0 +1,44 @@
+[
+    {
+        "id": "1",
+        "name": "Producto 1",
+        "precio": 19.95,
+        "cagories": [
+            {
+                "id": "dsads",
+                "name": "Cat1"
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "name": "Producto 2",
+        "precio": 19.95
+    },
+    {
+        "id": "3",
+        "name": "Producto 3",
+        "precio": 19.95
+    },
+    {
+        "id": "4",
+        "name": "Producto 4",
+        "precio": 19.95
+    },
+    {
+        "name": "Producto 5",
+        "precio": 19.95
+    },
+    {
+        "name": "Producto 6",
+        "precio": 19.95
+    },
+    {
+        "name": "Producto 7",
+        "precio": 19.95
+    },
+    {
+        "name": "Producto 8",
+        "precio": 19.95
+    }
+]

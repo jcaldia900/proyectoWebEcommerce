@@ -1,0 +1,34 @@
+[
+    {
+        "name": "Cat1",
+        "products": [
+            {
+                "id": "1",
+                "name": "Producto 1",
+                "precio": 19.95
+            },
+            {
+                "id": "2",
+                "name": "Producto 2",
+                "precio": 19.95
+            },
+            {
+                "id": "3",
+                "name": "Producto 3",
+                "precio": 19.95
+            }
+        ]
+    },
+    {
+        "name": "Cat2",
+        "products": []
+    },
+    {
+        "name": "Cat3",
+        "products": []
+    },
+    {
+        "name": "Cat4",
+        "products": []
+    }
+]

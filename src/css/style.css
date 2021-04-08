@@ -25,7 +25,14 @@ body {
   padding: 0;
   
 }
+.menu-box{
+  display: none;
+}
 
+.menuopen{
+  display: block;
+  
+}
 .swiper-container {
   width: 100%;
   height: 90%;
