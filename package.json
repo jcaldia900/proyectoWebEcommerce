@@ -17,9 +17,12 @@
     "tailwindcss": "^2.0.4"
   },
   "scripts": {
-    "dev": "del dist && npx run-p postcss eleventy",
-    "postcss": "npx postcss src/css/style.css -o dist/style.css --env development -w --verbose",
-    "eleventy": "npx @11ty/eleventy --serve"
+    "build": "del dist && npx run-s build:postcss build:eleventy",
+    "build:postcss": "npx postcss src/css/style.css -o dist/style.css --env production",
+    "build:eleventy": "npx @11ty/eleventy",
+    "dev": "del dist && npx run-p dev:postcss dev:eleventy",
+    "dev:postcss": "npx postcss src/css/style.css -o dist/style.css --env development -w --verbose",
+    "dev:eleventy": "npx @11ty/eleventy --serve"
   },
   "author": "",
   "license": "ISC",
