@@ -2,25 +2,514 @@
     {
         "id":1,
         "nombre": "jackets",
-        "imagen": "https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,dpr_1.5,q_auto,w_350,h_350,b_rgb:fffff3,c_fill,f_jpg/site/menu/Spring21-mens-Session-Jacket-Dark-Emerald-Messy.png"
-      
+        "imagen": "https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,dpr_1.5,q_auto,w_350,h_350,b_rgb:fffff3,c_fill,f_jpg/site/menu/Spring21-mens-Session-Jacket-Dark-Emerald-Messy.png",
+        "bg":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_450,c_fill,f_auto/store/collections/Spring21-Collection_Page_Headers-Mens_Jackets.jpg?v=1614",
+        "products":[
+            {
+                "id":1,
+                "nombre": "franklin fleece",
+                "precio": 129.50,
+                "imagen": "https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Fall20-Mens-Franklin-Fleece-Navy.png?v=1605582471",
+                
+                "colors": [
+                    {
+                        
+                        "color": "#14172D"
+                    },
+                    {
+                        
+                        "color": "#67564E"
+                    },
+                    {
+                        
+                        "color": "#9DA5A6"
+                    }  
+                ],
+                "sizes": [ "S", "M", "L", "XL"]
+            },
+            {
+                "id":2,
+                "nombre": "session jacket",
+                "precio": 103,
+                "imagen": "https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Fall19-Mens-Session-Jacket-Update-Charcoal-On-Model.png?v=1614083623",
+                
+                "colors": [
+                    {
+                        
+                        "color": "#35373B"
+                    },
+                    {
+                        
+                        "color": "#263E0F"
+                    },
+                    {
+                        
+                        "color": "#3D4838"
+                    },
+                    {
+                        
+                        "color": "#000000"
+                    },
+                    {
+                        
+                        "color": "#252C45"
+                    },
+                    {
+                        
+                        "color": "#652631"
+                    }   
+                
+                
+                
+                
+                ]
+            },
+            {
+                "id":3,
+                "nombre": "run commute jacket",
+                "precio":  173,
+                "imagen": "https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Fall20-Mens-Franklin-Fleece-Navy.png?v=1605582471",
+                "colors": [
+                    {
+                        
+                        "color": "#252C45"
+                    },
+                    {
+                        
+                        "color": "#BA905E"
+                    }  
+                ]
+            },
+            {
+                "id":4,
+                "nombre": "off roads packable jacket",
+                "precio": 173,
+                "imagen": "https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Fall20-Mens-Off-Roads-Packable-Jacket-On-Model.png?v=1602602184",
+                "colors": [
+                    {
+                        "color": "#EFEAD7"
+                    }
+                  
+                ]
+            },
+            {
+                "id":5,
+                "nombre": "coaches jacket",
+                "precio": 173,
+                "imagen": "https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Fall20-Mens-Coaches-Jacket-Navy-On-Model.png?v=1603241643",
+                "colors": [
+                    {
+                        
+                        "color": "#252C45"
+                    },
+                    {
+                        
+                        "color": "#BA905E"
+                    }  
+                ]
+            },
+            {
+                "id":6,
+                "nombre": "ndo jacket",
+                "precio": 173,
+                "imagen": "https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Fall20-Mens-Jacket-Black-On-Model.png?v=1608749602",
+                "colors": [
+                    {
+                        
+                        "color": "#252C45"
+                    }
+                ]
+            }
+        ]
     },
     {
         "id":2,
         "nombre": "tops",
-        "imagen": "https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,dpr_1.5,q_auto,w_350,h_350,b_rgb:fffff3,c_fill,f_jpg/site/menu/Spring21-Mens-Harrier-Long-Sleeve-Tamarind-Messy.png"
+        "imagen": "https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,dpr_1.5,q_auto,w_350,h_350,b_rgb:fffff3,c_fill,f_jpg/site/menu/Spring21-Mens-Harrier-Long-Sleeve-Tamarind-Messy.png",
+        "bg":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_450,c_fill,f_auto/store/collections/Spring21-Collection_Page_Headers-Mens_Tops.jpg?v=1614262140",
+        "products":[
+            {
+                "id":1,
+                "nombre": "harrier long sleeve",
+                "precio": 71,
+                "imagen": "https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Mens-Harrier-Long-Sleeve-Stonewash.png?v=1612958549",
+                "colors": [
+                    {
+                    
+                        "color": "#8CAEC3"
+                    },
+                    {
+                       
+                        "color": "#695F4F"
+                    },
+                    {
+                       
+                        "color": "#5F5F5F"
+                    },
+                    {
+                       
+                        "color": "#263850"
+                    },
+                    {
+                       
+                        "color": "#3D4838"
+                    }
+                    
+                ],
+                "sizes": [ "S", "M", "L", "XL"]
+            },
+            {
+                "id":2,
+                "nombre": "harrier tee",
+                "precio": 68,
+                "imagen": "https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Mens-Harrier-Tee-Stonewash.png?v=1614106553",
+                "colors": [
+                    {
+                      
+                        "color": "#8CAEC3"
+                    },
+                    {
+                        
+                        "color": "#695F4F"
+                    },
+                    {
+                    
+                        "color": "#A4CEB6"
+                    },
+                    {
+                      
+                        "color": "#BD6967"
+                    },
+                    {
+                     
+                        "color": "#000000"
+                    },
+                    {
+                      
+                        "color": "#8F7B82"
+                    }           
+                
+                
+                ]
+            },
+            {
+                "id":3,
+                "nombre": "van cortlandt polo",
+                "precio": 77,
+                "imagen": "https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Mens-VC-Polo-Stonewash.png?v=1613845916",
+                "colors": [
+                    {
+                        "color": "#8CAEC3"
+                    },
+                    {
+                        "color": "#252C45"
+                    },
+                    {
+                        "color": "#EFEAD7"
+                    }
+                ]
+            },
+            {
+                "id":4,
+                "nombre": "van cortlandt long sleeve",
+                "precio": 65,
+                "imagen": "https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Mens-VC-LS-Ivory-Royal.png?v=1614084632",
+                "colors": [
+                    {
+                        "color": "#0035FF"
+                    },
+                    {
+                        "color": "#D43800"
+                    },
+                    {
+                        "color": "#252C45"
+                    }
+                ]
+            },
+            {
+                "id":5,
+                "nombre": "van cortlandt tee",
+                "precio": 61,
+                "imagen": "https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Mens-VC-Tee-Royal-Skylight.png?v=1614087183",
+                "colors": [
+                    {
+                        "name": "Red",
+                        "color": "#ff0000"
+                    },
+                    {
+                        "name": "Red",
+                        "color": "#ff0000"
+                    },
+                    {
+                        "name": "Red",
+                        "color": "#ff0000"
+                    }
+                ]
+            },
+            {
+                "id":6,
+                "nombre": "vand cortland singlet",
+                "precio": 57,
+                "imagen": "https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Mens-VC-Singlet-Royal-Skylight_598b247f-3f2f-44d2-830a-6081af26875a.png",
+                "colors": [
+                    {
+                        "name": "Red",
+                        "color": "#ff0000"
+                    },
+                    {
+                        "name": "Red",
+                        "color": "#ff0000"
+                    },
+                    {
+                        "name": "Red",
+                        "color": "#ff0000"
+                    }
+                ]
+            }
+        ]
       
     },
     {
         "id":3,
         "nombre": "bottons",
-        "imagen": "https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,dpr_1.5,q_auto,w_350,h_350,b_rgb:fffff3,c_fill,f_jpg/site/menu/Spring21-Mens-Session-Split-Shorts-Spruce-Messy.png"
+        "imagen": "https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,dpr_1.5,q_auto,w_350,h_350,b_rgb:fffff3,c_fill,f_jpg/site/menu/Spring21-Mens-Session-Split-Shorts-Spruce-Messy.png",
+        "bg":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_450,c_fill,f_auto/store/collections/Spring21-Collection_Page_Headers-Mens_Bottoms.jpg?v=1614261944",
+        "products":[
+            {
+                "id":1,
+                "nombre": "van cortlandt grand shorts",
+                "precio": 57,
+                "imagen": "https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Mens-VC-Grand-Shorts-Royal-Ivory.png?v=1614084480",
+                "colors": [
+                    {
+                        "color": "#0035FF"
+                    },
+                    {
+                        "color": "#D43800"
+                    },
+                    {
+                        "color": "#252C45"
+                    }
+                ],
+                "sizes": [ "S", "M", "L", "XL"]
+            },
+            {
+                "id":2,
+                "nombre": "van cortlandt shorts",
+                "precio": 52,
+                "imagen": "https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Mens-VC-Shorts-Royal-Blue.png?v=1614084827",
+                "colors": [
+                    {
+                        "color": "#0035FF"
+                    },
+                    {
+                        "color": "#8CAEC3"
+                    },
+                    {
+                        "color": "#252C45"
+                    }
+                
+                ]
+            },
+            {
+                "id":3,
+                "nombre": "session speed shorts",
+                "precio": 63,
+                "imagen": "https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Mens-Session-Split-Shorts-Spruce.png?v=1614106187",
+                "colors": [
+                    {
+                        "color": "#A4CEB6"
+                    },
+                    {
+                        "color": "#393840"
+                    },
+                    {
+                        "color": "#252C45"
+                    }
+                ]
+            },
+            {
+                "id":4,
+                "nombre": "session shorts 7 inch",
+                "precio": 59,
+                "imagen": "https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Mens-Session-7Inch-Shorts-Spruce.png?v=1614081151",
+                "colors": [
+                    {
+                        "color": "#A4CEB6"
+                    },
+                    {
+                        "color": "#393840"
+                    },
+                    {
+                        "color": "#252C45"
+                    },
+                    {
+                        "color": "#8CAEC3"
+                    },
+                    {
+                        "color": "#252C45"
+                    }
+                ]
+            },
+            {
+                "id":5,
+                "nombre": "session shorts",
+                "precio": 59,
+                "imagen": "https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Mens-Session-5Inch-Shorts-Spruce.png?v=1614080929",
+                "colors": [
+                    {
+                        "color": "#A4CEB6"
+                    },
+                    {
+                        "color": "#393840"
+                    },
+                    {
+                        "color": "#252C45"
+                    },
+                    {
+                        "color":"#263E0F"
+                    }
+
+                ]
+            },
+            {
+                "id":6,
+                "nombre": "twilight shorts",
+                "precio": 51,
+                "imagen": "https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Mens-Twilight-5Inch-Shorts-Rosewood-Ivory.png?v=1613937610",
+                "colors": [
+                    {
+                        "color": "#A4CEB6"
+                    },
+                    {
+                        "color": "#393840"
+                    },
+                    {
+                        "color": "#252C45"
+                    },
+                    {
+                        "color":"#263E0F"
+                    }
+                ]
+            }
+        ]
       
     },
     {
         "id":4,
         "nombre": "accesories",
-        "imagen": "https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,dpr_1.5,q_auto,w_350,h_350,b_rgb:fffff3,c_fill,f_jpg/site/menu/Spring21-Tube-Sock-Spruce-Ivory-Messy.png"
+        "imagen": "https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,dpr_1.5,q_auto,w_350,h_350,b_rgb:fffff3,c_fill,f_jpg/site/menu/Spring21-Tube-Sock-Spruce-Ivory-Messy.png",
+        "bg":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_450,c_fill,f_auto/store/collections/Spring21-Collection_Page_Headers-Accessories.jpg?v=1614261742",
+        "products":[
+            {
+                "id":1,
+                "nombre": "speed crew sock",
+                "precio": 22,
+                "imagen": "https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Fall20-Speed-Crew-Sock-Black.png?v=1597201736",
+                "colors": [
+                    {
+                       
+                        "color": "#000000"
+                    },
+                    {
+                      
+                        "color": "#FFFEF3"
+                    },
+                    {
+                   
+                        "color": "#252C45"
+                    }
+                ],
+                "sizes": [ "S", "M", "L", "XL"]
+            },
+            {
+                "id":2,
+                "nombre": "speed crew socks - off roads",
+                "precio": 22,
+                "imagen": "https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Fall20-Off-Roads-Sock-Navy-Ivory-Plum_28825276-91a9-4223-8f34-3c1b493acf78.png",
+                "colors": [
+                    {
+                       
+                        "color": "#000000"
+                    },
+                    {
+                      
+                        "color": "#FFFEF3"
+                    }     ]
+            },
+            {
+                "id":3,
+                "nombre": "merino tube sock",
+                "precio": 16,
+                "imagen": "https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Tube-Sock-Spruce-Ivory2.png?v=1616034786",
+                "colors": [
+                    {
+                       
+                        "color": "#A4CEB6"
+                    },
+                    {
+                      
+                        "color": "#B88E2C"
+                    },
+                    {
+                       
+                        "color": "#000000"
+                    }
+                ]
+            },
+            {
+                "id":4,
+                "nombre": "merino no show sock",
+                "precio": 12,
+                "imagen": "https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-No-Show-Sock-Stonewash-Ivory.png?v=1614889064",
+                "colors": [
+                    {
+                       
+                        "color": "#A4CEB6"
+                    },
+                    {
+                      
+                        "color": "#B88E2C"
+                    },
+                    {
+                       
+                        "color": "#000000"
+                    }
+                ]
+            },
+            {
+                "id":5,
+                "nombre": "the charles sunglasses",
+                "precio": 222,
+                "imagen": "https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Summer19-The-Charles-Grey.jpg?v=1567129640",
+                "colors": [
+                    {
+                        
+                        "color": "#D4DBD9"
+                    },
+                    {
+                       
+                        "color": "#B88E2C"
+                    }
+                ]
+            },
+            {
+                "id":6,
+                "nombre": "tracksmith hat",
+                "precio": 33,
+                "imagen": "https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Tracksmith-Hat-Spruce.png?v=1614106121",
+                "colors": [
+                    {
+                        
+                        "color": "#A4CEB6"
+                    },
+                    {
+                       
+                        "color": "#000000"
+                    }
+                ]
+            }
+        ]
       
     }
 ]

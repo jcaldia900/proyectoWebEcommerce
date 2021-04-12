@@ -1,62 +1,66 @@
 ---
 pagination: 
- data: productos
+ data: categorias
  size: 1
- alias: item
-permalink: "productos/{{ item.nombre | slug }}/"
-
+ alias: categoria
+permalink: "{{ categoria.nombre | slug }}/"
 ---
 {% extends "layouts/default.njk" %}
-{% set title = item.nombre %}
-{% block content %}
+{% set title = categoria.nombre %}
 
+{% block content %}
 
 <main class="">
     <div class="bg-brownbutton p-0.5"></div>
-
-    <div class=""
+    
+    <div class="pb-10"
         style="  
         
-            background: url(https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_450,c_fill,f_auto/store/collections/Spring21-Collection_Page_Headers-Mens_Jackets.jpg?v=1614) no-repeat center center; background-size: cover;height: 45%;">
+            background: url({{categoria.bg}}) no-repeat center center; background-size: cover;height: 65%;">
 
         {% include "partials/top.njk" %}
-
+       
         <div
             class="text-center text-white  font-sans items-center justify-center pt-40 sm:pt-10 overflow-hidden mx-auto">
+            
             <h1 class="md:text-8xl lg:text-6xl sm:text-4xl leading-none uppercase w-4/12 mx-auto text-center sm:mt-10 md:mt-20 mb-20"
-                style="max-width: 480px;">{{item.nombre}}</h1>
-
-
+                style="max-width: 480px;">{{categoria.nombre}}</h1>
+            
+           
+            
         </div>
-
+        
     </div>
-
+   
     <section class="bg-backgroundMain overflow-hidden">
+        
         <div class="container mx-auto">
+           
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  gap-4 my-20 md:ml-36 md:mr-36 "
                 style="align-items:center ;">
-                {% for item in productos %}
-
+                {% for product in categoria.products %}
                 <div>
-                    <!-- <a href="../franklin">-->
+                     <a href="../productos/{{ product.nombre | slug }}/">
                     <div class="card-zoom flex items-center justify-center ">
-                        <img class="card-zoom-image no-repeat  center center" src="{{item.imagen}}" alt="franklin"
-                            style="background-size:cover; width:50%; max-width:100%">
+                        <img class="card-zoom-image no-repeat  center center" src="{{product.imagen}}" alt="franklin"
+                            style="background-size:cover; width:70%; max-width:100%">
                     </div>
+                    </a>
                     <br />
-                    <h4 class=" text-center sm:text-sm md:text-xl lg:text-2xl uppercase">{{item.nombre}}</h4>
+                    <h4 class=" text-center sm:text-sm md:text-xl lg:text-2xl uppercase">{{product.nombre}}</h4>
                     <br />
                     <p class="text-brownbutton text-center text-2xl">
-                        {{item.precio}}</p>
+                        {{product.precio}} €</p>
 
                     <ul class="flex items-center justify-center mt-10">
 
 
                         <div class="flex items-center justify-center mt-5 mb-5">
 
-                            {% for color in item.colors %}
+                            {% for color in product.colors %}
                             <button>
-                                <li class=" py-1.5  px-3" style="background-color: {{color}}"> </li>
+                               <li class="card-zoom  py-1.5  px-3" style="background-color: {{color.color}}"></li>
+                              
                             </button>
                             {% endfor %}
 
@@ -66,12 +70,16 @@ permalink: "productos/{{ item.nombre | slug }}/"
 
                     </a>
                 </div>
+                
+
                 {% endfor %}
           
             </div>
+           
         </div>
+        
     </section>
-
+    
     {% include "partials/newsletter.njk" %}
 
 </main>

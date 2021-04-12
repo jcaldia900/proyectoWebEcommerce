@@ -1,5 +1,9 @@
 ---
-title: "Franklin"
+pagination: 
+ data: productos
+ size: 1
+ alias: item
+permalink: "productos/{{ item.nombre | slug }}/"
 ---
 {% extends "layouts/default.njk" %}
 

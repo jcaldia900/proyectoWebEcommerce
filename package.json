@@ -9,6 +9,7 @@
     "@11ty/eleventy": "^0.12.1",
     "@tailwindcss/jit": "^0.1.5",
     "autoprefixer": "^10.2.5",
+    "del-cli": "^3.0.1",
     "eleventy": "^1.0.6",
     "postcss": "^8.2.8",
     "postcss-cli": "^8.3.1",
@@ -16,7 +17,7 @@
     "tailwindcss": "^2.0.4"
   },
   "scripts": {
-    "dev": "npx run-p postcss eleventy",
+    "dev": "del dist && npx run-p postcss eleventy",
     "postcss": "npx postcss src/css/style.css -o dist/style.css --env development -w --verbose",
     "eleventy": "npx @11ty/eleventy --serve"
   },
