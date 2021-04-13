@@ -41,8 +41,8 @@ permalink: "{{ categoria.nombre | slug }}/"
                 {% for product in categoria.products %}
                 <div>
                      <a href="../productos/{{ product.nombre | slug }}/">
-                    <div class="card-zoom flex items-center justify-center ">
-                        <img class="card-zoom-image no-repeat  center center" src="{{product.imagen}}" alt="franklin"
+                    <div class=" z-0 overflow-hidden card-zoom flex items-center justify-center ">
+                        <img class="card-zoom-image no-repeat  center center" src="{{product.imagen}}" alt=""
                             style="background-size:cover; width:70%; max-width:100%">
                     </div>
                     </a>
@@ -53,14 +53,16 @@ permalink: "{{ categoria.nombre | slug }}/"
                         {{product.precio}} €</p>
 
                     <ul class="flex items-center justify-center mt-10">
+                        
 
-
-                        <div class="flex items-center justify-center mt-5 mb-5">
-
+                        <div id="contenedorImagen" class="flex items-center justify-center mt-5 mb-5">
+                            <button class="py-2 px-2 " style="background-color: lawngreen;"
+                            onclick="cambiarImagen(1)"></button>
+                            <p id="textoParrafo">12</p>
                             {% for color in product.colors %}
-                            <button>
-                               <li class="card-zoom  py-1.5  px-3" style="background-color: {{color.color}}"></li>
-                              
+                            <button  onclick="cambiarImagen(1)">
+                               <li  class="card-zoom  py-1.5  px-3" style="background-color: {{color.color}}"></li>
+                           
                             </button>
                             {% endfor %}
 
@@ -75,7 +77,34 @@ permalink: "{{ categoria.nombre | slug }}/"
                 {% endfor %}
           
             </div>
-           
+            <script>
+                function cambiarImagen(e) {
+                    let contenedor=document.getElementById("contenedorImagen");
+                    let parrafo=document.getElementById("textoParrafo");
+
+                    if (a==1){
+
+                        parrafo.innerText='color:navy';
+                        } else if (a==2){
+                        parrafo.innerText='color:expresso';    
+                        }else{
+                        parrafo.innerText='color:dark gray'; 
+                        }
+                    /*for (let a = 0; a < parrafo; a++) {
+                        
+                        if (a==1){
+
+                        parrafo.innerText='color:navy';
+                    } else if (a==2){
+                        parrafo.innerText='color:expresso';    
+                    }else{
+                        parrafo.innerText='color:dark gray'; 
+                    }
+                    }*/
+                    
+
+                }
+            </script>
         </div>
         
     </section>

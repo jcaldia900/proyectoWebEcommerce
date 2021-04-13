@@ -2,8 +2,8 @@
     <nav class="container  uppercase pt-16 sm:mx-auto md: mx-0 lg:mx-auto h-40 text-white hover:text-black ">
         <div class="flex justify-between mx-auto relative " style="max-width: 90%">
             <div class="flex none sm:space-x-4 sm:float-left md:hidden">
-                <a href="" class="hover:text-brownbutton flex mx-auto justify-center items-center">
-                    <p>
+                <a id="menuMobile" onclick="navMobile.menuMobile()" class="hover:text-brownbutton flex mx-auto justify-center items-center">
+                    <p >
                         menu
                     </p>
 
@@ -98,7 +98,7 @@
         <div class="flex mx-auto bg-white h-0 pt-0.5 -mt-6 md:mt-2" style="width: 90%;"></div>
 
     </nav>
-    <div class="bg-backgroundMain ">
+    <div class="bg-backgroundMain sm:hidden md:block">
         <div id="menu-box" class="absolute flex flex-col-1 left-0  -mt-12 w-full border-t-2 border-gray-200 invisible"
            style="top:165px;">
             <div class="container mx-auto bg-backgroundMain ">
@@ -133,11 +133,44 @@
 
         </div>
     </div>
+    <div class="bg-white md:hidden absolute z-10 left-0  w-full" >
+        <div id="menu-box-mobile" class="invisible  flex flex-col-1 -mt-12  border-t-2 border-gray-200 "
+           style="top:165px; min-height: 100%;min-width: 100%;">
+            <div class="container  bg-white " style="min-height: 100%;min-width: 100%;">
+                <ul class="flex flex-col ">
+                    {% for item in categorias %}
+                   <a href="/{{ item.nombre | slug }}"> 
+                        <li
+                            class="flex flex-col items-center justify-center border-r-2 border-gray-200 py-10 px-5 overflow-hidden ">
+
+                            <h4 class=" text-center sm:text-sm md:text-2xl lg:text-3xl uppercase">{{item.nombre}}</h4><br />
+                                  </li>
+                    </a>
+                    {% endfor %}
+
+                    <li class="flex flex-col items-center justify-center py-10 px-5 mb-14 overflow-hidden">
+                        <h4 class=" text-center sm:text-sm md:text-2xl lg:text-3xl uppercase">highlights</h4>
+                        <h5 class="text-center sm:text-xs md:text-xl lg:text-2xl uppercase mt-2">hare a.c.</h5>
+                        <p class="text-center sm:text-xs md:text-base lg:text-lg text-gray-300">Members-Only Product
+                        </p>
+                        <h5 class="text-center sm:text-xs md:text-xl lg:text-2xl text-brownbutton uppercase mt-2">
+                            shop all mens</h5>
+                    </li>
+
+
+                </ul>
+
+            </div>
+
+        </div>
+    </div>
 </header>
+
+
 <script>
 
     window.nav = {
-        status: false,
+        status: true,
         menu: function () {
             if (nav.status) {
                 // here put class when menu is open - eg:
@@ -150,7 +183,21 @@
             }
         }
     }
-    console.log("holaa")
+    window.navMobile = {
+        status: true,
+        menuMobile: function () {
+            if (navMobile.status) {
+                // here put class when menu is open - eg:
+                document.getElementById("menu-box-mobile").className = "menu-box menuopen";
+                navMobile.status = false;
+            } else {
+                // here put class when menu is closed - eg:
+                document.getElementById("menu-box-mobile").className = "menu-box";
+                navMobile.status = true;
+            }
+        }
+    }
+  
 
 
 </script>

@@ -12,7 +12,7 @@ permalink: "productos/{{ item.nombre | slug }}/"
 
 
 <div class="bg-brownbutton p-0.5"></div>
-<div class=" h-screen z-index:10"
+<div class=" h-screen"
     style="
 
             background: url(https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,dpr_1.5,q_auto,w_1700,c_fill,f_auto/site/Products/2020-Fall/M-Franklin-Fleece/Tracksmith_Boston_FW20_RubenEric_0626.jpg) no-repeat center center; background-size: cover">
@@ -42,8 +42,8 @@ permalink: "productos/{{ item.nombre | slug }}/"
                 <p id="texto" class="uppercase text-gray-300">color:navy</p>
                 <ul id="contenedor" class="flex items-center justify-center mt-10 ">
                    
-                    <button id="botonUno" onclick="cambiar(1)" class=" py-5 px-5 bg-black"></button>
-                    <button id="botonDos" onclick="cambiar(2)" class=" py-5 px-5 bg-yellow-800"></button>
+                    <button onclick="cambiar(1)" class=" py-5 px-5 bg-black"></button>
+                    <button onclick="cambiar(2)" class=" py-5 px-5 bg-yellow-800"></button>
                     <button onclick="cambiar()" class=" py-5 px-5 bg-gray-400"></button>
 
 
@@ -67,30 +67,45 @@ permalink: "productos/{{ item.nombre | slug }}/"
             <p id="textoTallas" class="uppercase text-gray-300 text-center mb-1">S</p>
             <div id="contenedorTallas" class="flex  items-center justify-center">
                 
-                <button onclick="cambiarTallas(1)" class="border-2 border-r py-2 px-4 border-textcolorP">S</button>
+                <!-- <button onclick="cambiarTallas(1)" class="border-2 border-r py-2 px-4 border-textcolorP">S</button>
                 <button onclick="cambiarTallas(2)" class="border-2 border-l border-r py-2 px-4 border-textcolorP">M</button>
                 <button onclick="cambiarTallas(3)" class="border-2 border-l border-r py-2 px-4 border-textcolorP">L</button>
-                <button onclick="cambiarTallas()" class="border-2 border-l py-2 px-4 border-textcolorP">XL</button>
+                <button onclick="cambiarTallas()" class="border-2 border-l py-2 px-4 border-textcolorP">XL</button> -->
+
+                {% for size in item.sizes %}
+                
+                <button data-size="{{size}}" class="size-selector border-2 border-l border-r py-2 px-4 border-textcolorP">{{size}}</button>
+                
+                {% endfor %}
 
 
 
             </div>
             <script>
-                function cambiarTallas(e) {
-                    let contenedor=document.getElementById("contenedorTallas");
-                    let parrafo=document.getElementById("textoTallas");
-                    if (e==1){
-                        parrafo.innerText='S';
-                    } else if (e==2){
-                        parrafo.innerText='M';    
-                    }else if (e==3){
-                        parrafo.innerText='L'; 
-                    }
-                    else{
-                        parrafo.innerText='XL'; 
-                    }
+                let sizeButtons = document.querySelectorAll(".size-selector");
 
-                }
+                sizeButtons.forEach(element => {
+                    let size = element.dataset.size;
+                    console.log(size);
+                    element.onmouseover = function(event) {
+                        alert(size) 
+                    }
+                });
+
+                // function cambiarTallas(e) {
+                //     let contenedor=document.getElementById("contenedorTallas");
+                //     let parrafo=document.getElementById("textoTallas");
+                //     if (e==1){
+                //         parrafo.innerText='S';
+                //     } else if (e==2){
+                //         parrafo.innerText='M';    
+                //     }else if (e==3){
+                //         parrafo.innerText='L'; 
+                //     }
+                //     else{
+                //         parrafo.innerText='XL'; 
+                //     }
+                // }
             </script>
             <div class="mt-10 flex justify-center">
                 <button class=" py-5 px-5 uppercase text-white bg-brownbutton">
