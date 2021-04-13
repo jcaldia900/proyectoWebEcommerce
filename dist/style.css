@@ -802,6 +802,12 @@ footer{
 .mt-2{
 	margin-top: 0.5rem;
 }
+.mt-1{
+	margin-top: 0.25rem;
+}
+.mb-1{
+	margin-bottom: 0.25rem;
+}
 .block{
 	display: block;
 }
@@ -958,6 +964,9 @@ footer{
 .border-r-2{
 	border-right-width: 2px;
 }
+.border-r{
+	border-right-width: 1px;
+}
 .border-gray-400{
 	--tw-border-opacity: 1;
 	border-color: rgba(156, 163, 175, var(--tw-border-opacity));
@@ -969,6 +978,10 @@ footer{
 .border-gray-200{
 	--tw-border-opacity: 1;
 	border-color: rgba(229, 231, 235, var(--tw-border-opacity));
+}
+.border-textcolorP{
+	--tw-border-opacity: 1;
+	border-color: rgba(92, 100, 105, var(--tw-border-opacity));
 }
 .bg-brownbutton{
 	--tw-bg-opacity: 1;
@@ -1077,6 +1090,14 @@ footer{
 	padding-top: 2.5rem;
 	padding-bottom: 2.5rem;
 }
+.py-2{
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+}
+.py-4{
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
 .pb-10{
 	padding-bottom: 2.5rem;
 }
@@ -1127,6 +1148,9 @@ footer{
 }
 .pt-0{
 	padding-top: 0px;
+}
+.pl-4{
+	padding-left: 1rem;
 }
 .text-center{
 	text-align: center;

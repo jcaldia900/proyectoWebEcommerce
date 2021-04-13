@@ -1,5 +1,5 @@
 ---
-pagination: 
+pagination:
  data: productos
  size: 1
  alias: item
@@ -39,40 +39,59 @@ permalink: "productos/{{ item.nombre | slug }}/"
                 <h1 class=" py-5 text-brownbutton text-5xl">€ 130</h1>
                 <h1 class="py-5 px-5 sm:text-3xl md:text-5xl">FRANKLIN FLEECE</h1>
                 <p class="text-xs text-gray-600 py-5 px-5">A Portatec Fleece Winter Running Jacket</p>
-                <p class="uppercase text-gray-300">color:navy</p>
-                <ul class="flex items-center justify-center mt-10 ">
+                <p id="texto" class="uppercase text-gray-300">color:navy</p>
+                <ul id="contenedor" class="flex items-center justify-center mt-10 ">
+                   
+                    <button id="botonUno" onclick="cambiar(1)" class=" py-5 px-5 bg-black"></button>
+                    <button id="botonDos" onclick="cambiar(2)" class=" py-5 px-5 bg-yellow-800"></button>
+                    <button onclick="cambiar()" class=" py-5 px-5 bg-gray-400"></button>
 
-                    <div>
-                        <input type="radio" id="colorA" name="gender" value="tamanoS" class="items-center mr-5">
-                        <label for="tamanoS" class="flex flex-col mr-5 bg-black py-5 px-5"></label><br>
-                    </div>
-                    <div>
-                        <input type="radio" id="tamanoM" name="gender" value="tamanoM" class="mr-5">
-                        <label for="tamanoM" class="flex flex-col mr-5 bg-yellow-800 py-5 px-5"></label><br>
-
-                    </div>
-                    <div>
-                        <input type="radio" id="tamanoM" name="gender" value="tamanoM" class="mr-5">
-                        <label for="tamanoM" class="flex flex-col mr-5 bg-gray-400 py-5 px-5"></label><br>
-
-                    </div>
 
             </div>
+
+            <script>
+                function cambiar(e) {
+                    let contenedor=document.getElementById("contenedor");
+                    let parrafo=document.getElementById("texto");
+                    if (e==1){
+                        parrafo.innerText='color:navy';
+                    } else if (e==2){
+                        parrafo.innerText='color:expresso';    
+                    }else{
+                        parrafo.innerText='color:dark gray'; 
+                    }
+
+                }
+            </script>
             </ul>
-            <div class="flex  items-center justify-center">
+            <p id="textoTallas" class="uppercase text-gray-300 text-center mb-1">S</p>
+            <div id="contenedorTallas" class="flex  items-center justify-center">
+                
+                <button onclick="cambiarTallas(1)" class="border-2 border-r py-2 px-4 border-textcolorP">S</button>
+                <button onclick="cambiarTallas(2)" class="border-2 border-l border-r py-2 px-4 border-textcolorP">M</button>
+                <button onclick="cambiarTallas(3)" class="border-2 border-l border-r py-2 px-4 border-textcolorP">L</button>
+                <button onclick="cambiarTallas()" class="border-2 border-l py-2 px-4 border-textcolorP">XL</button>
 
-                <input type="radio" id="tamanoS" name="gender" value="tamanoS" class="mr-5">
-                <label for="tamanoS" class="mr-5">S</label><br>
 
-                <input type="radio" id="tamanoM" name="gender" value="tamanoM" class="mr-5">
-                <label for="tamanoM" class="mr-5">M</label><br>
 
-                <input type="radio" id="tamanoL" name="gender" value="tamanoL" class="mr-5">
-                <label for="tamanoL" class="mr-5">L</label>
-
-                <input type="radio" id="tamanoXL" name="gender" value="tamanoXL" class="mr-5">
-                <label for="tamanoXL" class="mr-5">XL</label><br>
             </div>
+            <script>
+                function cambiarTallas(e) {
+                    let contenedor=document.getElementById("contenedorTallas");
+                    let parrafo=document.getElementById("textoTallas");
+                    if (e==1){
+                        parrafo.innerText='S';
+                    } else if (e==2){
+                        parrafo.innerText='M';    
+                    }else if (e==3){
+                        parrafo.innerText='L'; 
+                    }
+                    else{
+                        parrafo.innerText='XL'; 
+                    }
+
+                }
+            </script>
             <div class="mt-10 flex justify-center">
                 <button class=" py-5 px-5 uppercase text-white bg-brownbutton">
                     <p>add to cart</p>
@@ -84,13 +103,9 @@ permalink: "productos/{{ item.nombre | slug }}/"
 
     <div class=" sm:flex flex-col-1 md:flex flex-row justify-center items-center sm:space-x-5 md:space-x-10 border-gray-400 border-b  mx-auto"
         style="max-width:80%">
-        <button id="des" class="text-center pb-10 uppercase">description</button>
-
-        <button id="fea" class="border-gray-400 border-l  uppercase pb-10 pl-10">features</button>
-        <button id="fabric" class="border-gray-400 border-l  uppercase pb-10 pl-10">fabric & care
-
-
-        </button>
+        <button class="text-center pb-10 uppercase">description</button>
+        <button class="border-gray-400 border-l  uppercase pb-10 pl-10">features</button>
+        <button class="border-gray-400 border-l  uppercase pb-10 pl-10">fabric & care </button>
 
 
     </div>
@@ -192,7 +207,6 @@ permalink: "productos/{{ item.nombre | slug }}/"
 </section>
 <img src="https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,dpr_1.5,q_auto,w_1200,c_fill,f_auto/site/Products/2020-Fall/M-Franklin-Fleece/Tracksmith_Boston_FW20_RubenEric_0984.jpg"
     style="width: 100%;">
-
 
 
 
