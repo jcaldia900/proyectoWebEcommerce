@@ -25,52 +25,47 @@ permalink: "productos/{{ item.nombre | slug }}/"
         <div class="flex items-center justify-center mt-20">
 
             <div class="flex justify-center items-center float-left container mx-auto">
-                <img src="https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Fall20-Mens-Franklin-Fleece-Navy.png?v=1605582471"
+                <img id="foto" src="{{item.imagen}}"
                     style="background-size:cover;max-height:70%;max-width: 70%;">
 
             </div>
-
-
-
         </div>
 
         <div class="grid grid-cols-1 content-center sm:grid-cols-1  justify-center items-center ">
             <div class=" pt-32 pb-6 text-center">
-                <h1 class=" py-5 text-brownbutton text-5xl">€ 130</h1>
-                <h1 class="py-5 px-5 sm:text-3xl md:text-5xl">FRANKLIN FLEECE</h1>
-                <p class="text-xs text-gray-600 py-5 px-5">A Portatec Fleece Winter Running Jacket</p>
-                <p id="texto" class="uppercase text-gray-300">color:navy</p>
-                <ul id="contenedor" class="flex items-center justify-center mt-10 ">
-                   
-                    <button onclick="cambiar(1)" class=" py-5 px-5 bg-black"></button>
-                    <button onclick="cambiar(2)" class=" py-5 px-5 bg-yellow-800"></button>
-                    <button onclick="cambiar()" class=" py-5 px-5 bg-gray-400"></button>
-
-
+                <h1 class=" py-5 text-brownbutton text-5xl">{{item.precio}} €</h1>
+                <h1 class="py-5 px-5 sm:text-3xl md:text-5xl uppercase">{{item.nombre}}</h1>
+                <p class="text-xs text-gray-600 py-5 px-5">{{item.descripcion}}</p>
+                <p id="textoColor" class="uppercase text-gray-300"></p>                
+                <ul id="contenedor" class="flex items-center justify-center mt-10 ">                   
+                    {% for color in item.colors %}
+                    <button data-color="{{color.value}}" data-color-text="{{color.text}}" data-colorimage="{{color.image}}" class="color-selector py-5 px-5 " style="background-color: {{color.value}}"></button>
+                    {% endfor %}
             </div>
+            
+            
+             <script>
+                let colorButtons = document.querySelectorAll(".color-selector");
+                let colorText = document.getElementById("textoColor");
+                let imagen = document.getElementById("foto");
+                // let parrafoText=document.getElementById("colorDeTexto");
+                //let rescolor = parrafoText.dataset.colorDeTexto;
+                colorButtons.forEach(element => {                  
+                    element.onclick = function(event) {
+                        let color=element.dataset.color;
+                        let texto=element.dataset.colorText;
+                        let image=element.dataset.colorimage;
+                        imagen.src = image
+                       
+                        colorText.innerText=texto;                                          
+                      }
+                });
 
-            <script>
-                function cambiar(e) {
-                    let contenedor=document.getElementById("contenedor");
-                    let parrafo=document.getElementById("texto");
-                    if (e==1){
-                        parrafo.innerText='color:navy';
-                    } else if (e==2){
-                        parrafo.innerText='color:expresso';    
-                    }else{
-                        parrafo.innerText='color:dark gray'; 
-                    }
-
-                }
+                
             </script>
             </ul>
             <p id="textoTallas" class="uppercase text-gray-300 text-center mb-1">S</p>
-            <div id="contenedorTallas" class="flex  items-center justify-center">
-                
-                <!-- <button onclick="cambiarTallas(1)" class="border-2 border-r py-2 px-4 border-textcolorP">S</button>
-                <button onclick="cambiarTallas(2)" class="border-2 border-l border-r py-2 px-4 border-textcolorP">M</button>
-                <button onclick="cambiarTallas(3)" class="border-2 border-l border-r py-2 px-4 border-textcolorP">L</button>
-                <button onclick="cambiarTallas()" class="border-2 border-l py-2 px-4 border-textcolorP">XL</button> -->
+            <div class="flex  items-center justify-center">
 
                 {% for size in item.sizes %}
                 
@@ -83,29 +78,16 @@ permalink: "productos/{{ item.nombre | slug }}/"
             </div>
             <script>
                 let sizeButtons = document.querySelectorAll(".size-selector");
-
+                let parrafo=document.getElementById("textoTallas");
                 sizeButtons.forEach(element => {
                     let size = element.dataset.size;
-                    console.log(size);
-                    element.onmouseover = function(event) {
-                        alert(size) 
+                    
+                    element.onclick = function(event) {
+                        parrafo.innerText=size; 
                     }
                 });
 
-                // function cambiarTallas(e) {
-                //     let contenedor=document.getElementById("contenedorTallas");
-                //     let parrafo=document.getElementById("textoTallas");
-                //     if (e==1){
-                //         parrafo.innerText='S';
-                //     } else if (e==2){
-                //         parrafo.innerText='M';    
-                //     }else if (e==3){
-                //         parrafo.innerText='L'; 
-                //     }
-                //     else{
-                //         parrafo.innerText='XL'; 
-                //     }
-                // }
+                
             </script>
             <div class="mt-10 flex justify-center">
                 <button class=" py-5 px-5 uppercase text-white bg-brownbutton">
