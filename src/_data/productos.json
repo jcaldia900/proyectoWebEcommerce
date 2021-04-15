@@ -422,19 +422,45 @@
         "id": 13,
         "nombre": "van cortlandt grand shorts",
         "precio": 57,
+        "descripcion":"A classic running silhouette made with our lightweight 2:09 Mesh",
         "imagen": "https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Mens-VC-Grand-Shorts-Royal-Ivory.png?v=1614084480",
         "colors": [
             {
-                "color": "#0035FF"
+                "value": "#0035FF",
+                "text": "color:royal/skylight",
+                "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Mens-VC-Grand-Shorts-Royal-Ivory.png?v=1614084480"
             },
             {
-                "color": "#D43800"
+                "value": "#8CAEC3",
+                "text": "color:stonewash/ivory",
+                "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Mens-VC-Grand-Shorts-Stonewash-Ivory.png?v=1614084480"
+                
             },
             {
-                "color": "#252C45"
-            }
+                "value":  "#D43800",
+                "text": "color:ivory/paprika",
+                "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Mens-VC-Grand-Shorts-Ivory-Paprika.png?v=1614084480"
+            },
+            {
+                "value": "#000000",
+                "text": "color:black/ivory",
+                "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/NDO21-Mens-VC-Grand-Shorts-Black-Ivory.png?v=1614084437"
+            },
+           
+            {
+                "value":  "#252C45",
+                "text": "color:navy/ivory",
+                "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Fall20-Mens-VC-Grand-Shorts-Navy-Ivory.png?v=1614084437"
+
+            },
+            {
+                "value":  "#000000",
+                "text": "color:black",
+                "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Spring20-Mens-VC-4inch-Shorts-Black.png?v=1614084437"
+            } 
         ],
         "sizes": [
+            "XS",            
             "S",
             "M",
             "L",
@@ -445,21 +471,46 @@
         "id": 14,
         "nombre": "van cortlandt shorts",
         "precio": 52,
+        "descripcion":"A classic running silhouette made with our lightweight 2:09 Mesh",
         "imagen": "https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Mens-VC-Shorts-Royal-Blue.png?v=1614084827",
         "colors": [
             {
-                "color": "#0035FF"
+                "value": "#0035FF",
+                "text": "color:royal blue",
+                "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Mens-VC-Shorts-Royal-Blue.png?v=1614084827"
             },
             {
-                "color": "#8CAEC3"
+                "value": "#8CAEC3",
+                "text": "color:stonewhash",
+                "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Mens-VC-Shorts-Stonewash.png?v=1614084827"
+                
             },
             {
-                "color": "#252C45"
+                "value":  "#D43800",
+                "text": "color:paprika",
+                "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Mens-VC-Shorts-Paprika.png?v=1614084827"
+            },
+            {
+                "value": "#000000",
+                "text": "color:black/ivory",
+                "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/NDO21-Mens-VC-Shorts-Black-Ivory.png?v=1614084809"
+            },
+            {
+                "value": "#000000",
+                "text": "color:black",
+                "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Laydown_VCShorts_Black_MEN.png?v=1614084809"
+            },
+            {
+                "value":  "#252C45",
+                "text": "color:navy",
+                "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Laydown_VCShorts_MEN_0000s_0007_TrackSmith_Mens_VCShorts_Navy_004_RTF.png?v=1614084809"
             }
         ],
         "sizes": [
+            "XS",
             "S",
             "M",
+            "L",
             "XL"
         ]
     },
@@ -467,21 +518,30 @@
         "id": 15,
         "nombre": "session speed shorts",
         "precio": 63,
+        "descripcion":"Designed for speed work, in a 3 silhouette and high-stretch knit",
         "imagen": "https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Mens-Session-Split-Shorts-Spruce.png?v=1614106187",
         "colors": [
             {
-                "color": "#A4CEB6"
+                "value": "#A4CEB6",
+                "text": "color:spruce",
+                "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Mens-Session-Split-Shorts-Spruce.png?v=1614106187"
             },
             {
-                "color": "#393840"
+                "value":  "#393840",
+                "text": "color:charcoal",
+                "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Mens-Session-Split-Shorts-Charcoal.png?v=1614106187"
             },
             {
-                "color": "#252C45"
+                "value":  "#252C45",
+                "text": "color:navy",
+                "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Mens-Session-Speed-Shorts-Navy.png?v=1614106187"
             }
         ],
         "sizes": [
+            "XS",
             "S",
             "M",
+            "L",
             "XL"
         ]
     },
@@ -489,27 +549,40 @@
         "id": 16,
         "nombre": "session shorts 7 inch",
         "precio": 59,
+        "descripcion":"A 7-inch short cut for speed from a lightweight and stretchy performance fabric.",
         "imagen": "https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Mens-Session-7Inch-Shorts-Spruce.png?v=1614081151",
         "colors": [
             {
-                "color": "#A4CEB6"
+                "value": "#A4CEB6",
+                "text": "color:spruce",
+                "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Mens-Session-7Inch-Shorts-Spruce.png?v=1614081151"
             },
             {
-                "color": "#393840"
+                "value": "#252C45",
+                "text": "color:navy",
+                "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Spring20-Mens-Session-7Inch-Shorts-Navy.png?v=1589488219"
             },
             {
-                "color": "#252C45"
+                "value": "#393840",
+                "text": "color:charcoal",
+                "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/19-Men-Session-Short-7-inch-Charcoal.png?v=1589488219"
             },
             {
-                "color": "#8CAEC3"
+                "value": "#000000",
+                "text": "color:black",
+                "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Spring18-Men-Session-Short-7-inch-Black.png?v=1589488219"
             },
             {
-                "color": "#252C45"
+                "value": "#252C45",
+                "text": "color:dark esmerald",
+                "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Mens-Session-7Inch-Shorts-Dark-Emerald.png?v=1614081151"
             }
         ],
         "sizes": [
+            "XS",
             "S",
             "M",
+            "L",
             "XL"
         ]
     },
@@ -517,24 +590,35 @@
         "id": 17,
         "nombre": "session shorts",
         "precio": 59,
+        "descripcion":"Our best-selling 5 shorts are cut for speed from a lightweight performance fabric.",
         "imagen": "https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Mens-Session-5Inch-Shorts-Spruce.png?v=1614080929",
         "colors": [
             {
-                "color": "#A4CEB6"
+                "value": "#A4CEB6",
+                "text": "color:spruce",
+                "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Mens-Session-7Inch-Shorts-Spruce.png?v=1614081151"
             },
             {
-                "color": "#393840"
+                "value": "#252C45",
+                "text": "color:navy",
+                "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Spring20-Mens-Session-7Inch-Shorts-Navy.png?v=1589488219"
             },
             {
-                "color": "#252C45"
+                "value": "#393840",
+                "text": "color:charcoal",
+                "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/19-Men-Session-Short-7-inch-Charcoal.png?v=1589488219"
             },
             {
-                "color": "#263E0F"
+                "value": "#252C45",
+                "text": "color:dark esmerald",
+                "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Mens-Session-7Inch-Shorts-Dark-Emerald.png?v=1614081151"
             }
         ],
         "sizes": [
+            "XS",
             "S",
             "M",
+            "L",
             "XL"
         ]
     },
@@ -542,24 +626,38 @@
         "id": 18,
         "nombre": "twilight shorts",
         "precio": 51,
+        "descripcion":"Designed for road work in a 5 silhouette combining lightweight comfort and coverage",
         "imagen": "https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Mens-Twilight-5Inch-Shorts-Rosewood-Ivory.png?v=1613937610",
         "colors": [
             {
-                "color": "#A4CEB6"
+                "value": "#BD6967",
+                "text": "color:rosewood/ivory",
+                "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Mens-Session-7Inch-Shorts-Spruce.png?v=1614081151"
             },
             {
-                "color": "#393840"
+                "value": "#A4CEB6",
+                "text": "color:spruce",
+                "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Mens-Session-7Inch-Shorts-Spruce.png?v=1614081151"
             },
             {
-                "color": "#252C45"
+                "value": "#000000",
+                "text": "color:black",
+                "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/19-Men-Session-Short-7-inch-Charcoal.png?v=1589488219"
             },
             {
-                "color": "#263E0F"
+                "value": "#393840",
+                "text": "color:navy",
+                "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Spring20-Mens-Session-7Inch-Shorts-Navy.png?v=1589488219"
             }
-        ],
+            
+            
+
+    ],
         "sizes": [
+            "XS",
             "S",
             "M",
+            "L",
             "XL"
         ]
     },
@@ -567,23 +665,32 @@
         "id": 19,
         "nombre": "speed crew sock",
         "precio": 22,
+        "descripcion":"A 5 crew sock for speed work made from a compressive blend",
         "imagen": "https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Fall20-Speed-Crew-Sock-Black.png?v=1597201736",
         "colors": [
             {
-                "color": "#000000"
+                "value": "#000000",
+                "text": "color:black",
+                "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Fall20-Speed-Crew-Sock-Black.png?v=1597201736"
             },
             {
-                "color": "#FFFEF3"
+                "value": "#FFFEF3",
+                "text": "color:white",
+                "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Fall20-Speed-Crew-Sock-White.png?v=1597201736"
             },
             {
-                "color": "#252C45"
+                "value": "#252C45",
+                "text": "color:navy",
+                "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Fall20-Speed-Crew-Sock-Navy.png?v=1597201736"
             }
+
         ],
         "sizes": [
+            
             "S",
             "M",
-            "L",
-            "XL"
+            "L"
+            
         ]
     },
     {
@@ -592,11 +699,15 @@
         "precio": 22,
         "imagen": "https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Fall20-Off-Roads-Sock-Navy-Ivory-Plum_28825276-91a9-4223-8f34-3c1b493acf78.png",
         "colors": [
-            {
-                "color": "#000000"
+            {   
+                "value": "#000000",
+                "text":"VORY/PLUM/MIDNIGHT",
+                "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Fall20-Off-Roads-Sock-Navy-Ivory-Plum_28825276-91a9-4223-8f34-3c1b493acf78.png"
             },
             {
-                "color": "#FFFEF3"
+                "value": "#252C45",
+                "text":"NAVY/MIDNIGHT",
+                "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Fall20-Off-Roads-Sock-Navy-Midnight_a03b689f-6429-4254-b5f5-de31a8e455ce.png?v=1604061867"
             }
         ],
         "sizes": [
@@ -611,14 +722,20 @@
         "precio": 16,
         "imagen": "https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Tube-Sock-Spruce-Ivory2.png?v=1616034786",
         "colors": [
-            {
-                "color": "#A4CEB6"
+            {   
+                "value": "#A4CEB6",
+                "text":"spruce/ivory",
+                "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Fall20-Off-Roads-Sock-Navy-Ivory-Plum_28825276-91a9-4223-8f34-3c1b493acf78.png"
             },
             {
-                "color": "#B88E2C"
+                "value": "#B88E2C",
+                "text":"white/gold",
+                "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Fall20-Off-Roads-Sock-White-Gold.png?v=1616034679"
             },
             {
-                "color": "#000000"
+                "value": "#000000",
+                "text":"white/navy",
+                "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Fall19-Accessories-Merino-Tube-Sock-White-Navy.png?v=1616034679"
             }
         ],
         "sizes": [
