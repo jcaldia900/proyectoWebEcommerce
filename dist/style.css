@@ -837,8 +837,8 @@ footer{
 .h-screen{
 	height: 100vh;
 }
-.h-28{
-	height: 7rem;
+.h-36{
+	height: 9rem;
 }
 .h-8{
 	height: 2rem;
@@ -1253,8 +1253,16 @@ footer{
 		margin-top: 2.5rem;
 	}
 
+	.sm\:mt-16{
+		margin-top: 4rem;
+	}
+
 	.sm\:mb-2{
 		margin-bottom: 0.5rem;
+	}
+
+	.sm\:mt-6{
+		margin-top: 1.5rem;
 	}
 
 	.sm\:mb-20{
@@ -1289,6 +1297,10 @@ footer{
 		margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
 	}
 
+	.sm\:p-20{
+		padding: 5rem;
+	}
+
 	.sm\:px-8{
 		padding-left: 2rem;
 		padding-right: 2rem;
@@ -1305,6 +1317,10 @@ footer{
 
 	.sm\:pt-10{
 		padding-top: 2.5rem;
+	}
+
+	.sm\:pt-14{
+		padding-top: 3.5rem;
 	}
 
 	.sm\:text-center{
@@ -1329,6 +1345,11 @@ footer{
 	.sm\:text-sm{
 		font-size: 0.875rem;
 		line-height: 1.25rem;
+	}
+
+	.sm\:text-5xl{
+		font-size: 3rem;
+		line-height: 1;
 	}
 
 	.sm\:text-3xl{
@@ -1438,6 +1459,10 @@ footer{
 		margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
 	}
 
+	.md\:p-0{
+		padding: 0px;
+	}
+
 	.md\:px-10{
 		padding-left: 2.5rem;
 		padding-right: 2.5rem;
@@ -1455,6 +1480,10 @@ footer{
 
 	.md\:pb-52{
 		padding-bottom: 13rem;
+	}
+
+	.md\:pt-16{
+		padding-top: 4rem;
 	}
 
 	.md\:pt-5{
@@ -1518,6 +1547,10 @@ footer{
 		padding-bottom: 24rem;
 	}
 
+	.lg\:pt-20{
+		padding-top: 5rem;
+	}
+
 	.lg\:text-left{
 		text-align: left;
 	}
@@ -1562,5 +1595,11 @@ footer{
 	.xl\:text-5xl{
 		font-size: 3rem;
 		line-height: 1;
+	}
+}
+@media (min-width: 1536px){
+
+	.\32xl\:pt-28{
+		padding-top: 7rem;
 	}
 }

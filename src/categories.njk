@@ -42,7 +42,7 @@ permalink: "{{ categoria.nombre | slug }}/"
                 <div>
                      <a href="../productos/{{ product.nombre | slug }}/">
                     <div class=" z-0 overflow-hidden card-zoom flex items-center justify-center ">
-                        <img class="card-zoom-image no-repeat  center center" src="{{product.imagen}}" alt=""
+                        <img id="foto" class="card-zoom-image no-repeat  center center" src="{{product.imagen}}" alt=""
                             style="background-size:cover; width:70%; max-width:100%">
                     </div>
                     </a>
@@ -58,8 +58,8 @@ permalink: "{{ categoria.nombre | slug }}/"
                         <div id="contenedorImagen" class="flex items-center justify-center mt-5 mb-5">
                            
                             {% for color in product.colors %}
-                            <button  onclick="cambiarImagen(1)">
-                               <li  class="card-zoom  py-1.5  px-3" style="background-color: {{color.color}}"></li>
+                            <button>
+                               <li data-color="{{color.value}}" data-colorimage="{{color.image}}" class="color-selector py-1.5  px-3" style="background-color: {{color.value}}"></li>
                            
                             </button>
                             {% endfor %}
@@ -73,7 +73,24 @@ permalink: "{{ categoria.nombre | slug }}/"
                 
 
                 {% endfor %}
-          
+                <script>
+                    let colorButtons = document.querySelectorAll(".color-selector");
+                    
+                    let imagen = document.getElementById("foto");
+                    
+                    colorButtons.forEach(element => {                  
+                        element.onclick = function(event) {
+                            let color=element.dataset.color;
+                            
+                            let image=element.dataset.colorimage;
+                            imagen.src = image
+                           
+                                                                  
+                          }
+                    });
+    
+                    
+                </script>
             </div>
         </div>
         

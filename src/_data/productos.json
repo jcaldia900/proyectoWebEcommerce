@@ -104,7 +104,47 @@
         "precio": 173,
         "descripcion": "A packable, water-repellent jacket for the trails",
         "imagen": "https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Fall20-Mens-Off-Roads-Packable-Jacket-On-Model.png?v=1602602184",
-        
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ]
+    },
+    {
+        "id": 5,
+        "nombre": "coaches jacket",
+        "precio": 173,
+        "descripcion": "A sideline-ready jacket made from water-repellent nylon-elastane blend with four-way stretch.",
+        "imagen": "https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Fall20-Mens-Coaches-Jacket-Navy-On-Model.png?v=1603241643",
+        "colors": [
+            {
+                "value": "rgb(37, 44, 69)",
+                "text": "color:navy",
+                "image": "https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Fall20-Mens-Coaches-Jacket-Navy-On-Model.png?v=1603241643"
+            },
+            {
+                "value": "rgb(186, 144, 94)",
+                "text": "color:navy",
+                "image": "https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Fall20-Mens-Coaches-Jacket-Walnut-On-Model.png?v=1603241643"
+            }
+        ],
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ]
+    },
+    {
+        "id": 6,
+        "nombre": "ndo jacket",
+        "precio": 173,
+        "descripcion":"A winter running jacket featuring a four-way stretch outer shell, bonded to a layer of merino wool for extra insulation and a reflective sash.",
+        "imagen": "https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Fall20-Mens-Jacket-Black-On-Model.png?v=1608749602",
+        "colors": [
+           
+        ],
         "sizes": [
             "S",
             "M",
@@ -114,65 +154,37 @@
         
     },
     {
-        "id": 5,
-        "nombre": "coaches jacket",
-        "precio": 173,
-        "descripcion":"A sideline-ready jacket made from water-repellent nylon-elastane blend with four-way stretch.",
-        "imagen": "https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Fall20-Mens-Coaches-Jacket-Navy-On-Model.png?v=1603241643",
-        "colors": [
-            "rgb(37, 44, 69)",
-            "rgb(186, 144, 94)"
-        ],
-        "sizes": [
-            "S",
-            "M",
-            "XL"
-        ],
-        "text-color": [
-            "color:navy",
-            "color:expresso",
-            "color:dark gray"
-        ]
-    },
-    {
-        "id": 6,
-        "nombre": "ndo jacket",
-        "precio": 173,
-        "imagen": "https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Fall20-Mens-Jacket-Black-On-Model.png?v=1608749602",
-        "colors": [
-            "rgb(37, 44, 69)"
-        ],
-        "sizes": [
-            "S",
-            "M",
-            "XL"
-        ],
-        "text-color": [
-            "color:navy",
-            "color:expresso",
-            "color:dark gray"
-        ]
-    },
-    {
         "id": 7,
         "nombre": "harrier long sleeve",
         "precio": 71,
+        "descripcion":" for cooler conditions delivered in a temperature-regulating Merino blend",
         "imagen": "https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Mens-Harrier-Long-Sleeve-Stonewash.png?v=1612958549",
         "colors": [
+
             {
-                "color": "#8CAEC3"
+                "value": "#8CAEC3",
+                "text": "color:stonewash",
+                "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Mens-Harrier-Long-Sleeve-Stonewash.png?v=1612958549"
             },
             {
-                "color": "#695F4F"
+                "value": "#695F4F",
+                "text": "color:tamarind",
+                "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Mens-Harrier-Long-Sleeve-Tamarind.png?v=1612958549"
             },
             {
-                "color": "#5F5F5F"
+                "value":  "#5F5F5F",
+                "text": "color:gravel heather",
+                "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Fall20-Mens-Harrier-LS-Gravel.png?v=1612958549"
             },
             {
-                "color": "#263850"
+                "value": "#263850",
+                "text": "color:midnight heather",
+                "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Fall20-Mens-Harrier-LS-Midnight-Blue.png?v=1612958532"
             },
             {
-                "color": "#3D4838"
+                "value": "#3D4838",
+                "text": "color:forest heather",
+                "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Fall18-Mens-Harrier-Long-Sleeve-Green.png?v=1612958549"
             }
         ],
         "sizes": [
@@ -191,30 +203,45 @@
         "id": 8,
         "nombre": "harrier tee",
         "precio": 68,
+        "descripcion":"A perfomance  tee made from a soft, lightweight and breathable Merino blend",
         "imagen": "https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Mens-Harrier-Tee-Stonewash.png?v=1614106553",
         "colors": [
+
             {
-                "color": "#8CAEC3"
+                "value": "#8CAEC3",
+                "text": "color:stonewash",
+                "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Mens-Harrier-Tee-Stonewash.png?v=1614106553"
             },
             {
-                "color": "#695F4F"
+                "value": "#695F4F",
+                "text": "color:tamarind",
+                "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Mens-Harrier-Tee-Tamarind.png?v=1614106553"
             },
             {
-                "color": "#A4CEB6"
+                "value":  "#A4CEB6",
+                "text": "color:spruce",
+                "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Mens-Harrier-Tee-Spruce.png?v=1614106553"
             },
             {
-                "color": "#BD6967"
+                "value": "#BD6967",
+                "text": "color:rosewood",
+                "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Mens-Harrier-Tee-Rosewood.png?v=1614106552"
             },
             {
-                "color": "#000000"
+                "value": "#000000",
+                "text": "color:black heather",
+                "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Fall20-Mens-Harrier-SS-Black-Heather.png?v=1604428491"
             },
             {
-                "color": "#8F7B82"
+                "value": "#8F7B82",
+                "text": "color:mulberry",
+                "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Spring20-Mens-Harrier-SS-Mulberry.png?v=1604428491"
             }
         ],
         "sizes": [
             "S",
             "M",
+            "L",
             "XL"
         ]
     },
@@ -224,19 +251,27 @@
         "precio": 77,
         "imagen": "https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Mens-VC-Polo-Stonewash.png?v=1613845916",
         "colors": [
+
             {
-                "color": "#8CAEC3"
+                "value": "#8CAEC3",
+                "text": "color:stonewash",
+                "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Mens-Harrier-Tee-Stonewash.png?v=1614106553"
             },
             {
-                "color": "#252C45"
+                "value": "#252C45",
+                "text": "color:navy",
+                "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Mens-VC-Polo-Navy.png?v=1613845921"
             },
             {
-                "color": "#EFEAD7"
+                "value":  "#EFEAD7",
+                "text": "color:ivory",
+                "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Mens-VC-Polo-Ivory.png?v=1613845921"
             }
         ],
         "sizes": [
             "S",
             "M",
+            "L",
             "XL"
         ]
     },
@@ -244,41 +279,83 @@
         "id": 10,
         "nombre": "van cortlandt long sleeve",
         "precio": 65,
+        "descripcion":"Our spin on a classic top crafted from our breathable 2:09 Mesh",
         "imagen": "https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Mens-VC-LS-Ivory-Royal.png?v=1614084632",
         "colors": [
+            
             {
-                "color": "#0035FF"
+                "value": "#0035FF",
+                "text": "color:ivory/royal",
+                "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Mens-VC-LS-Ivory-Royal.png?v=1614084632"
             },
             {
-                "color": "#D43800"
+                "value": "#D43800",
+                "text": "color:paprika/ivory",
+                "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Mens-VC-LS-Paprika-Ivory.png?v=1614084632"
             },
             {
-                "color": "#252C45"
-            }
+                "value":  "#252C45",
+                "text": "color:navy/ivory",
+                "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Spring20-Mens-VC-LS-Navy.png?v=1614084632"
+            }            
+        ],
+        "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
         ]
     },
     {
         "id": 11,
         "nombre": "van cortlandt tee",
         "precio": 61,
+        "descripcion":"A statement-making short-sleeve crafted in our lightweight 2:09 Mesh",
         "imagen": "https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Mens-VC-Tee-Royal-Skylight.png?v=1614087183",
         "colors": [
             {
-                "name": "Red",
-                "color": "#ff0000"
+                "value": "#0035FF",
+                "text": "color:royal/skylight",
+                "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Mens-VC-Tee-Royal-Skylight.png?v=1614087183"
             },
             {
-                "name": "Red",
-                "color": "#ff0000"
+                "value": "#8CAEC3",
+                "text": "color:stonewash/ivory",
+                "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Mens-VC-Tee-Stonewash-Ivory.png?v=1614087183"
+                
             },
             {
-                "name": "Red",
-                "color": "#ff0000"
-            }
+                "value":  "#D43800",
+                "text": "color:ivory/paprika",
+                "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Mens-VC-Tee-Ivory-Paprika-Ivory.png?v=1614087183"
+            },
+            {
+                "value": "#000000",
+                "text": "color:black/ivory",
+                "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/NDO21-Mens-VC-Tee-Black-Ivory.png?v=1614087126"
+            },
+            {
+                "value": "#8F7B82",
+                "text": "color:mulberry/ivory",
+                "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Fall20-Mens-VC-Singlet-Mulberry-Ivory.png?v=1614087126"
+            },
+            {
+                "value":  "#B88E2C",
+                "text": "color:gold/ivory",
+                "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Fall20-Mens-VC-Singlet-Gold-Ivory_f6439516-150e-4c84-a3b6-7c4c88150b58.png?v=1614087126"
+            },
+            {
+                "value":  "#252C45",
+                "text": "color:navy/ivory",
+                "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Laydown_TechTee_MEN_0006_TrackSmith_Mens_TechTee_NavyIvory_003_RTF.png?v=1614087126"
+            }               
         ],
         "sizes": [
+            "XS",
             "S",
             "M",
+            "L",
             "XL"
         ]
     },
@@ -286,24 +363,58 @@
         "id": 12,
         "nombre": "vand cortland singlet",
         "precio": 57,
+        "descripcion":"Our signature racing top with a statement-making sash, crafted in our lightweight 2:09 Mesh",
         "imagen": "https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Mens-VC-Singlet-Royal-Skylight_598b247f-3f2f-44d2-830a-6081af26875a.png",
         "colors": [
             {
-                "name": "Red",
-                "color": "#ff0000"
+                "value": "#0035FF",
+                "text": "color:royal/skylight",
+                "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Mens-VC-Singlet-Royal-Skylight_598b247f-3f2f-44d2-830a-6081af26875a.png"
             },
             {
-                "name": "Red",
-                "color": "#ff0000"
+                "value": "#8CAEC3",
+                "text": "color:stonewash/ivory",
+                "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Mens-VC-Singlet-Stonewash-Ivory_b0bef106-5252-4c45-ae76-918ee844c670.png?v=1614086926"
+                
             },
             {
-                "name": "Red",
-                "color": "#ff0000"
-            }
+                "value":  "#D43800",
+                "text": "color:ivory/paprika",
+                "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Mens-VC-Singlet-Ivory-Paprika-Ivory_24a28684-90e5-4686-8628-71491b50e19c.png?v=1614086926"
+            },
+            {
+                "value": "#000000",
+                "text": "color:black/ivory",
+                "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/NDO21-Mens-VC-Singlet-Black-Ivory.png?v=1614086926"
+            },
+            {
+                "value": "#8F7B82",
+                "text": "color:plum/mulberry",
+                "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Fall20-Mens-VC-Singlet-Plum-Mulberry.png?v=1614086926"
+            },
+            {
+                "value":  "#B88E2C",
+                "text": "color:gold/ivory",
+                "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Fall20-Mens-VC-Singlet-Gold-Ivory.png?v=1614086926"
+            },
+            {
+                "value":  "#252C45",
+                "text": "color:navy/ivory",
+                "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Copy_of_Laydown_VCSinglet_MEN_0007_TrackSmith_Mens_VCSinglet_NavyIvory_006_RTF.png?v=1614086926"
+
+            },
+            {
+                "value":  "#000000",
+                "text": "color:black",
+                "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Mens_VC_Singlet_Black.png?v=1614086926"
+            } 
+
         ],
         "sizes": [
+            "XS",
             "S",
             "M",
+            "L",
             "XL"
         ]
     },

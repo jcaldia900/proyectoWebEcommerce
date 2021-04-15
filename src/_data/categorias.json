@@ -13,17 +13,20 @@
                 
                 "colors": [
                     {
+                        "value": "rgb(37, 44, 69)",
                         
-                        "color": "#14172D"
+                        "image": "https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Fall20-Mens-Franklin-Fleece-Navy.png?v=1605582471"
                     },
                     {
+                        "value": "rgb(103, 86, 78)",
                         
-                        "color": "#67564E"
+                        "image": "https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Fall20-Mens-Franklin-Fleece-Espresso.png?v=1605582471"
                     },
                     {
-                        
-                        "color": "#9DA5A6"
-                    }  
+                        "value": "rgb(212, 219, 217)",
+                       
+                        "image": "https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Fall20-Mens-Franklin-Fleece-Gravel.png?v=1605582471"
+                    }
                 ],
                 "sizes": [ "S", "M", "L", "XL"]
             },
@@ -35,30 +38,35 @@
                 
                 "colors": [
                     {
+                        "value": "rgb(52, 55, 59)",
                         
-                        "color": "#35373B"
+                        "image": "https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Fall19-Mens-Session-Jacket-Update-Charcoal-On-Model.png?v=1614083623"
                     },
                     {
+                        "value": "rgb(38, 62, 15)",
                         
-                        "color": "#263E0F"
+                        "image": "https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-mens-Session-Jacket-Dark-Emerald-On-Model.png?v=1614083657"
                     },
                     {
-                        
-                        "color": "#3D4838"
+                        "value": "rgb(61, 72, 56)",
+                       
+                        "image": "https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Fall20-Mens-Session-Jacket-Forest-On-Model.png?v=1614083623"
                     },
                     {
+                        "value": "rgb(0, 0, 0)",
                         
-                        "color": "#000000"
+                        "image": "https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Spring20-Mens-Session-Jacket-Black-On-Model.png?v=1614083623"
                     },
                     {
+                        "value": "rgb(37, 44, 69)",
                         
-                        "color": "#252C45"
+                        "image": "https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Fall19-Mens-Session-Jacket-Update-Navy-On-Model.png?v=1614083623"
                     },
                     {
+                        "value": "rgb(101, 38, 49)",
                         
-                        "color": "#652631"
-                    }   
-                
+                        "image": "https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Fall19-Mens-Session-Jacket-Update-Wine-On-Model.png?v=1614083623"
+                    }
                 
                 
                 
@@ -71,12 +79,14 @@
                 "imagen": "https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Fall20-Mens-Franklin-Fleece-Navy.png?v=1605582471",
                 "colors": [
                     {
+                        "value": "rgb(37, 44, 69)",
                         
-                        "color": "#252C45"
+                        "image": "https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Summer20-Mens-Woolmark-Jacket-Navy-On-Model.png?v=1597198614"
                     },
                     {
-                        
-                        "color": "#BA905E"
+                        "value": "rgb(186, 144, 94)",
+                       
+                        "image": "https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Summer20-Mens-Woolmark-Jacket-Walnut-On-Model.png?v=1597198614"
                     }  
                 ]
             },
