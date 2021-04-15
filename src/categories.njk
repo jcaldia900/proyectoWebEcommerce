@@ -1,5 +1,5 @@
 ---
-pagination: 
+pagination:
  data: categorias
  size: 1
  alias: categoria
@@ -12,90 +12,100 @@ permalink: "{{ categoria.nombre | slug }}/"
 
 <main class="">
     <div class="bg-brownbutton p-0.5"></div>
-    
-    <div class="pb-10"
-        style="  
+
+    <div class="pb-10" style="  
         
             background: url({{categoria.bg}}) no-repeat center center; background-size: cover;height: 65%;">
 
         {% include "partials/top.njk" %}
-       
+
         <div
             class="text-center text-white  font-sans items-center justify-center pt-40 sm:pt-10 overflow-hidden mx-auto">
-            
+
             <h1 class="md:text-8xl lg:text-6xl sm:text-4xl leading-none uppercase w-4/12 mx-auto text-center sm:mt-10 md:mt-20 mb-20"
                 style="max-width: 480px;">{{categoria.nombre}}</h1>
-            
-           
-            
+
+
+
         </div>
-        
+
     </div>
-   
+
     <section class="bg-backgroundMain overflow-hidden">
-        
+
         <div class="container mx-auto">
-           
+
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  gap-4 my-20 md:ml-36 md:mr-36 "
                 style="align-items:center ;">
                 {% for product in categoria.products %}
-                <div>
-                     <a href="../productos/{{ product.nombre | slug }}/">
-                    <div class=" z-0 overflow-hidden card-zoom flex items-center justify-center ">
-                        <img id="foto" class="card-zoom-image no-repeat  center center" src="{{product.imagen}}" alt=""
-                            style="background-size:cover; width:70%; max-width:100%">
-                    </div>
-                    </a>
-                    <br />
-                    <h4 class=" text-center sm:text-sm md:text-xl lg:text-2xl uppercase">{{product.nombre}}</h4>
-                    <br />
-                    <p class="text-brownbutton text-center text-2xl">
-                        {{product.precio}} €</p>
 
-                    <ul class="flex items-center justify-center mt-10">
-                        
 
-                        <div id="contenedorImagen" class="flex items-center justify-center mt-5 mb-5">
-                           
-                            {% for color in product.colors %}
-                            <button>
-                               <li data-color="{{color.value}}" data-colorimage="{{color.image}}" class="color-selector py-1.5  px-3" style="background-color: {{color.value}}"></li>
-                           
-                            </button>
-                            {% endfor %}
-
+                        <div class="product-selector" >
+                            <a href="../productos/{{ product.nombre | slug }}/">
+                                <div id="foto" class=" z-0 overflow-hidden card-zoom flex items-center justify-center ">
+                                    <img  data-img="{{product.imagen}}"
+                                        class="card-zoom-image no-repeat  center center"
+                                        id="image-selector-{{product.id}}"
+                                        src="{{product.imagen}}" alt=""
+                                        style="background-size:cover; width:70%; max-width:100%">
+                                </div>
+                            </a>
+                            <br />
+                            <h4 class="text-center sm:text-sm md:text-xl lg:text-2xl uppercase">{{product.nombre}}</h4>
+                            <br />
+                            <p class="text-brownbutton text-center text-2xl">
+                                {{product.precio}} €</p>
+                            <ul class="flex items-center justify-center mt-10">
+                                <div class="flex items-center justify-center mt-5 mb-5">
+                                    {% for color in product.colors %}
+                                    <button>
+                                        <li data-color-image="{{color.image}}"
+                                            data-product-id="{{product.id}}"                                    
+                                            class="color-selector py-1.5  px-3" style="background-color: {{color.value}}"></li>
+                                    </button>
+                                    {% endfor %}
+                                </div>
+                            </ul>
                         </div>
 
-                    </ul>
-
-                    </a>
-                </div>
-                
 
                 {% endfor %}
                 <script>
+
                     let colorButtons = document.querySelectorAll(".color-selector");
-                    
-                    let imagen = document.getElementById("foto");
-                    
-                    colorButtons.forEach(element => {                  
-                        element.onclick = function(event) {
-                            let color=element.dataset.color;
-                            
-                            let image=element.dataset.colorimage;
-                            imagen.src = image
-                           
-                                                                  
-                          }
+                    colorButtons.forEach(element => {
+                        let image = element.dataset.colorImage;
+                        let id = element.dataset.productId;
+
+                        element.onclick = function (event) {                            
+                            document.getElementById(`image-selector-${id}`).src = image
+                        }
                     });
-    
-                    
+
+                //     let colorButtons = document.querySelectorAll(".color-selector");
+
+                //     let imagen = document.getElementById("foto").querySelectorAll(".imagen-selector");
+                //     let imagenes = document.querySelectorAll(".imagen-selector").;
+
+                //    // let principal = document.querySelectorAll(".principal-selector");
+                   
+                //         colorButtons.forEach(element => {
+                //             element.onclick = function (event) {
+                               
+                //                 let image = element.dataset.colorimage;
+                //                 imagen.src = image
+
+
+                //             }
+                        
+                //     });
+
                 </script>
             </div>
         </div>
-        
+
     </section>
-    
+
     {% include "partials/newsletter.njk" %}
 
 </main>
