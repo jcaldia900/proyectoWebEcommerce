@@ -12,14 +12,16 @@ title: "Login"
         <div class=" grid grid-cols-1 md:grid-cols-2  ml-28 mr-28 mb-14 mt-4  ">
             <div class="mt-20">
                 <h3 class="uppercase  sm:text-sm md:text-xl lg:text-2xl text-center">login</h3>
-                <div class="flex flex-col mt-10 px-20">
-                    <input type="text"
-                        class="border bg-backgroundMain border-brownbutton sm:px-12 md:px-20 sm:py-3 lg:px-20 md:py-5 mt-6 uppercase sm:text-xs md:text-sm lg-text-base"
-                        placeholder="email">
-                    <input type="text"
-                        class="border bg-backgroundMain border-brownbutton sm:px-12 md:px-20 sm:py-3 lg:px-20 md:py-5 mt-6 uppercase sm:text-xs md:text-sm lg-text-base"
-                        placeholder="password">
+                <div class="md:flex md:flex-col mt-10 md:px-20">
+                    <form action="" onsubmit="return funcionBoton();" style="min-width: 100%;">
+                    <input type="email"
+                        class="border bg-backgroundMain border-brownbutton sm:px-12 md:px-20 sm:py-3 md:py-5 mt-6 uppercase sm:text-xs md:text-sm "
+                        placeholder="email" id="email" style="min-width: 100%;" >
+                    <input type="password"
+                        class="border bg-backgroundMain border-brownbutton sm:px-12 md:px-20 sm:py-3  md:py-5 mt-6 uppercase sm:text-xs md:text-sm "
+                        placeholder="password" id="contrasena" required style="min-width: 100%;">
                     <button class="bg-brownbutton cursor-pointer sm:px-12 sm:py-3 md:px-20 md:py-5 uppercase mt-6 leading-relaxed text-white sm:text-xs md:text-sm "  style="min-width: 100%;">sign in</button>
+                </form>
                     <h4 class="uppercase underline cursor-pointer text-brownbutton mt-4 text-xs ">forgot password?</h4>
                 </div>
                 
@@ -29,19 +31,20 @@ title: "Login"
             
             <div class="mt-20 lg:border-l-2 pb-4">
                 <h3 class="uppercase  sm:text-sm md:text-xl lg:text-2xl text-center">registrer</h3>
-                <div class="flex flex-col mt-10 px-20">
+                <div class="md:flex md:flex-col mt-10 md:px-20">
+                    <form action="" onsubmit="return funcionBoton();" style="min-width: 100%;">
                     <input type="text"
                         class="border bg-backgroundMain border-brownbutton sm:px-12 sm:py-3  md:px-20  lg:px-20 md:py-5 mt-6 uppercase sm:text-xs md:text-sm lg-text-base"
-                        placeholder="first name">
+                        placeholder="first name" required>
                     <input type="text"
                         class="border bg-backgroundMain border-brownbutton sm:px-12 sm:py-3 md:px-20 lg:px-20  md:py-5 mt-6 uppercase sm:text-xs md:text-sm lg-text-base"
-                        placeholder="last name">
-                    <input type="text"
+                        placeholder="last name" required>
+                    <input type="email"
                         class="border bg-backgroundMain border-brownbutton sm:px-12 sm:py-3 md:px-20 lg:px-20  md:py-5 mt-6 uppercase sm:text-xs md:text-sm lg-text-base"
-                        placeholder="email">
-                    <input type="text"
+                        placeholder="email" required>
+                    <input type="password"
                         class="border bg-backgroundMain border-brownbutton sm:px-12 sm:py-3 md:px-20 lg:px-20  md:py-5 mt-6 uppercase sm:text-xs md:text-sm lg-text-base"
-                        placeholder="password">
+                        placeholder="password" required>
                     
                     <div class="container mx-auto " >
                         <label class="flex items-center">
@@ -52,9 +55,22 @@ title: "Login"
                       <button class="bg-brownbutton cursor-pointer sm:px-12 sm:py-3 md:px-20 md:py-5 uppercase mt-6 leading-relaxed text-white sm:text-xs md:text-sm" style="min-width: 100%;">registrer</button>
                         </div>
                     </div>
+                </form>
             </div>
 
         </div>
+        <script>
+            let correo = document.getElementById("email").value;
+            let contra = document.getElementById("contrasena").value;
+            let botonLogin = document.getElementById("buttonLogin")
+            
+            
+            function funcionBoton(){
+                if(correo===""){
+                    alert("vas bien")
+                    return false;
+            }}
+        </script>
     </div>
 </section>
 
