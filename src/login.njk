@@ -1,0 +1,63 @@
+---
+title: "Login"
+---
+{% extends "layouts/default.njk" %}
+
+{% block content %}
+<div class="">
+{% include "partials/top.njk" %}
+</div>
+<section class="bg-backgroundMain overflow-hidden " style="min-height: 80%;">
+    <div class="container mx-auto">
+        <div class=" grid grid-cols-1 md:grid-cols-2  ml-28 mr-28 mb-14 mt-4  ">
+            <div class="mt-20">
+                <h3 class="uppercase  sm:text-sm md:text-xl lg:text-2xl text-center">login</h3>
+                <div class="flex flex-col mt-10 px-20">
+                    <input type="text"
+                        class="border bg-backgroundMain border-brownbutton sm:px-12 md:px-20 sm:py-3 lg:px-20 md:py-5 mt-6 uppercase sm:text-xs md:text-sm lg-text-base"
+                        placeholder="email">
+                    <input type="text"
+                        class="border bg-backgroundMain border-brownbutton sm:px-12 md:px-20 sm:py-3 lg:px-20 md:py-5 mt-6 uppercase sm:text-xs md:text-sm lg-text-base"
+                        placeholder="password">
+                    <button class="bg-brownbutton cursor-pointer sm:px-12 sm:py-3 md:px-20 md:py-5 uppercase mt-6 leading-relaxed text-white sm:text-xs md:text-sm "  style="min-width: 100%;">sign in</button>
+                    <h4 class="uppercase underline cursor-pointer text-brownbutton mt-4 text-xs ">forgot password?</h4>
+                </div>
+                
+            </div>
+           
+              
+            
+            <div class="mt-20 lg:border-l-2 pb-4">
+                <h3 class="uppercase  sm:text-sm md:text-xl lg:text-2xl text-center">registrer</h3>
+                <div class="flex flex-col mt-10 px-20">
+                    <input type="text"
+                        class="border bg-backgroundMain border-brownbutton sm:px-12 sm:py-3  md:px-20  lg:px-20 md:py-5 mt-6 uppercase sm:text-xs md:text-sm lg-text-base"
+                        placeholder="first name">
+                    <input type="text"
+                        class="border bg-backgroundMain border-brownbutton sm:px-12 sm:py-3 md:px-20 lg:px-20  md:py-5 mt-6 uppercase sm:text-xs md:text-sm lg-text-base"
+                        placeholder="last name">
+                    <input type="text"
+                        class="border bg-backgroundMain border-brownbutton sm:px-12 sm:py-3 md:px-20 lg:px-20  md:py-5 mt-6 uppercase sm:text-xs md:text-sm lg-text-base"
+                        placeholder="email">
+                    <input type="text"
+                        class="border bg-backgroundMain border-brownbutton sm:px-12 sm:py-3 md:px-20 lg:px-20  md:py-5 mt-6 uppercase sm:text-xs md:text-sm lg-text-base"
+                        placeholder="password">
+                    
+                    <div class="container mx-auto " >
+                        <label class="flex items-center">
+                          <input type="checkbox" class="form-checkbox mb-14">
+                          <span class="ml-8 mt-8 uppercase">be the firts to know about new product introductions and exclusive content</span>
+                        </label>
+                      
+                      <button class="bg-brownbutton cursor-pointer sm:px-12 sm:py-3 md:px-20 md:py-5 uppercase mt-6 leading-relaxed text-white sm:text-xs md:text-sm" style="min-width: 100%;">registrer</button>
+                        </div>
+                    </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+{% include "partials/newsletter.njk" %}
+{% include "partials/footer.njk" %}
+{% endblock %}

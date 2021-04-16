@@ -192,11 +192,6 @@
             "M",
             "L",
             "XL"
-        ],
-        "text-color": [
-            "color:navy",
-            "color:expresso",
-            "color:dark gray"
         ]
     },
     {
@@ -626,7 +621,7 @@
         "id": 18,
         "nombre": "twilight shorts",
         "precio": 51,
-        "descripcion":"Designed for road work in a 5 silhouette combining lightweight comfort and coverage",
+        "descripcion":"Designed for road work in a 5” silhouette combining lightweight comfort and coverage",
         "imagen": "https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Mens-Twilight-5Inch-Shorts-Rosewood-Ivory.png?v=1613937610",
         "colors": [
             {
@@ -665,7 +660,7 @@
         "id": 19,
         "nombre": "speed crew sock",
         "precio": 22,
-        "descripcion":"A 5 crew sock for speed work made from a compressive blend",
+        "descripcion":"A 5” crew sock for speed work made from a compressive blend",
         "imagen": "https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Fall20-Speed-Crew-Sock-Black.png?v=1597201736",
         "colors": [
             {
@@ -697,6 +692,7 @@
         "id": 20,
         "nombre": "speed crew socks - off roads",
         "precio": 22,
+        "descripcion":"A 5” fitted crew sock for the trail. ",
         "imagen": "https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Fall20-Off-Roads-Sock-Navy-Ivory-Plum_28825276-91a9-4223-8f34-3c1b493acf78.png",
         "colors": [
             {   
@@ -720,6 +716,7 @@
         "id": 21,
         "nombre": "merino tube sock",
         "precio": 16,
+        "descripcion":"A merino tube sock for running with a reinforced rib band for support. ",
         "imagen": "https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Tube-Sock-Spruce-Ivory2.png?v=1616034786",
         "colors": [
             {   
@@ -751,14 +748,32 @@
         "imagen": "https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-No-Show-Sock-Stonewash-Ivory.png?v=1614889064",
         "colors": [
             {
-                "color": "#A4CEB6"
+                "value": "#8CAEC3",
+                "text": "color:stonewash/ivory",
+                "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-No-Show-Sock-Stonewash-Ivory.png?v=1614889064"
             },
             {
-                "color": "#B88E2C"
+                "value":"#252C45",
+                "text":"navy/ivory",
+                "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Fall20-Merino-No-Show-Socks-Navy-White.png?v=1604434590"
+                
+
             },
             {
-                "color": "#000000"
+                "value":"##FFFFFF",
+                "text":"white/gravel",
+                "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Fall20-Merino-No-Show-Socks-Ivory-Gravel.png?v=1604434589"
+                
+
+            },
+            {
+                "value": "#8F7B82",
+                "text": "color:plum/mulberry",
+                "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Fall20-Merino-No-Show-Socks-Plum.png?v=1604434590"
             }
+
+            
+           
         ],
         "sizes": [
             "S",
@@ -770,38 +785,39 @@
         "id": 23,
         "nombre": "the charles sunglasses",
         "precio": 222,
+        "descripcion":"An eyewear collaboration with Article One, these running sunglasses are handmade in Italy.",
         "imagen": "https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Summer19-The-Charles-Grey.jpg?v=1567129640",
         "colors": [
             {
-                "color": "#D4DBD9"
+                "value": "#D4DBD9",
+                "text":"gray",
+                "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Summer19-The-Charles-Grey.jpg?v=1567129640"
             },
             {
-                "color": "#B88E2C"
+                "value": "#B88E2C",
+                "text":"gold",
+                "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/The-Charles-Gold.png?v=1567129640"
             }
-        ],
-        "sizes": [
-            "S",
-            "M",
-            "XL"
         ]
     },
     {
         "id": 24,
         "nombre": "tracksmith hat",
         "precio": 33,
+        "descripcion":"Our take on the classic cotton six panel baseball hat with an adjustable self-fabric closure.",
         "imagen": "https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Tracksmith-Hat-Spruce.png?v=1614106121",
         "colors": [
             {
-                "color": "#A4CEB6"
+                "value": "#A4CEB6",
+                "text":"spruce",
+                "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Tracksmith-Hat-Spruce.png?v=1614106121"
             },
             {
-                "color": "#000000"
+                "value": "#000000",
+                "text":"navy",
+                "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Summer19-Accessories-Dad-Hat-Navy.png?v=1560444296"
             }
-        ],
-        "sizes": [
-            "S",
-            "M",
-            "XL"
         ]
+       
     }
 ]
