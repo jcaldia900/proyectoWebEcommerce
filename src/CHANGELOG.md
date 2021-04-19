@@ -3,3 +3,9 @@
 ### Added
 -Anadimos cambios en products, llamando a los respectivos campos, los datos del json que los cogen a través del alias item
 -Realización de estructuras repetitivas,con el objetivo de usar los datos guardados en el json 
+## [0.0.2] - 2021-04-16
+-Anadimos todas los productos de sus categorias con sus respectivas imagenes por color
+-Modificacion del menu responsive móvil y web
+## [0.0.3] - 2021-04-19
+### Changed
+-Traslado de todo el JS en html a el archivo main.js

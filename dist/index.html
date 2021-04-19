@@ -11,7 +11,7 @@
     <link rel="icon" type="image/png" href="https://cdn.tracksmith.com/assets/favicon-32x32.png" sizes="32x32">
     
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script type="text/javascript" src="productosbutton.js"></script>
+    
     <title>Página Principal</title>
 
 
@@ -259,40 +259,7 @@
 </header>
 
 
-<script>
 
-    window.nav = {
-        status: true,
-        menu: function () {
-            if (nav.status) {
-                // here put class when menu is open - eg:
-                document.getElementById("menu-box").className = "menu-box menuopen";
-                nav.status = false;
-            } else {
-                // here put class when menu is closed - eg:
-                document.getElementById("menu-box").className = "menu-box";
-                nav.status = true;
-            }
-        }
-    }
-    window.navMobile = {
-        status: true,
-        menuMobile: function () {
-            if (navMobile.status) {
-                // here put class when menu is open - eg:
-                document.getElementById("menu-box-mobile").className = "menu-box menuopen";
-                navMobile.status = false;
-            } else {
-                // here put class when menu is closed - eg:
-                document.getElementById("menu-box-mobile").className = "menu-box";
-                navMobile.status = true;
-            }
-        }
-    }
-  
-
-
-</script>
     <div
             class="text-center text-white  font-sans items-center justify-center sm:pt-14 md:pt-16 lg:pt-20  2xl:pt-28  overflow-hidden mx-auto">
             <h1 class="md:text-6xl sm:text-5xl leading-none uppercase w-4/12 mx-auto text-center"
@@ -328,7 +295,7 @@
                     <button class="py-5 px-10 bg-brownbutton">SUSCRIBE</button>
                 </div>
             </div>
-        </div>
+        </div> 
     </section>
 
 
@@ -686,10 +653,11 @@
         </div>
         
         <div class="bg-brownbutton flex items-center justify-center">
+            <p class="w-4/6 text-right">Web realizada como trabajo de FCT,</p>
             <a class="py-5 px-2 bg-white"></a>
             <a class="py-5 px-5 bg-red-600 "></a>
             <a class="py-5 px-2 bg-white"></a>
-            <p>Web realizada como trabajo de FCT, en ningún caso con ánimo de suplantar la web original.</p>
+            <p class="w-4/6"> en ningún caso con ánimo de suplantar la web original.</p>
         </div>
         
     </footer>

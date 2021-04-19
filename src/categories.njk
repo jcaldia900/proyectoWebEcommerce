@@ -67,37 +67,7 @@ permalink: "{{ categoria.nombre | slug }}/"
 
 
                 {% endfor %}
-                <script>
-
-                    let colorButtons = document.querySelectorAll(".color-selector");
-                    colorButtons.forEach(element => {
-                        let image = element.dataset.colorImage;
-                        let id = element.dataset.productId;
-
-                        element.onclick = function (event) {
-                            document.getElementById(`image-selector-${id}`).src = image
-                        }
-                    });
-
-                //     let colorButtons = document.querySelectorAll(".color-selector");
-
-                //     let imagen = document.getElementById("foto").querySelectorAll(".imagen-selector");
-                //     let imagenes = document.querySelectorAll(".imagen-selector").;
-
-                //    // let principal = document.querySelectorAll(".principal-selector");
-
-                //         colorButtons.forEach(element => {
-                //             element.onclick = function (event) {
-
-                //                 let image = element.dataset.colorimage;
-                //                 imagen.src = image
-
-
-                //             }
-
-                //     });
-
-                </script>
+            
             </div>
         </div>
 
