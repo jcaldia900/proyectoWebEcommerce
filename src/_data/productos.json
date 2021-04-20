@@ -125,7 +125,7 @@
             },
             {
                 "value": "rgb(186, 144, 94)",
-                "text": "color:navy",
+                "text": "color:walnut",
                 "image": "https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Fall20-Mens-Coaches-Jacket-Walnut-On-Model.png?v=1603241643"
             }
         ],
@@ -244,13 +244,14 @@
         "id": 9,
         "nombre": "van cortlandt polo",
         "precio": 77,
+        "descripcion":"A perfomance  tee made from a soft, lightweight and breathable Merino blend",
         "imagen": "https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Mens-VC-Polo-Stonewash.png?v=1613845916",
         "colors": [
 
             {
                 "value": "#8CAEC3",
                 "text": "color:stonewash",
-                "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Mens-Harrier-Tee-Stonewash.png?v=1614106553"
+                "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Mens-VC-Polo-Stonewash.png?v=1613845916"
             },
             {
                 "value": "#252C45",
@@ -280,17 +281,17 @@
             
             {
                 "value": "#0035FF",
-                "text": "color:ivory/royal",
+                "text": "ivory/royal",
                 "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Mens-VC-LS-Ivory-Royal.png?v=1614084632"
             },
             {
                 "value": "#D43800",
-                "text": "color:paprika/ivory",
+                "text": "paprika/ivory",
                 "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Mens-VC-LS-Paprika-Ivory.png?v=1614084632"
             },
             {
                 "value":  "#252C45",
-                "text": "color:navy/ivory",
+                "text": "navy/ivory",
                 "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Spring20-Mens-VC-LS-Navy.png?v=1614084632"
             }            
         ],
@@ -311,33 +312,33 @@
         "colors": [
             {
                 "value": "#0035FF",
-                "text": "color:royal/skylight",
+                "text": "royal/skylight",
                 "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Mens-VC-Tee-Royal-Skylight.png?v=1614087183"
             },
             {
                 "value": "#8CAEC3",
-                "text": "color:stonewash/ivory",
+                "text": "stonewash/ivory",
                 "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Mens-VC-Tee-Stonewash-Ivory.png?v=1614087183"
                 
             },
             {
                 "value":  "#D43800",
-                "text": "color:ivory/paprika",
+                "text": "ivory/paprika",
                 "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Mens-VC-Tee-Ivory-Paprika-Ivory.png?v=1614087183"
             },
             {
                 "value": "#000000",
-                "text": "color:black/ivory",
+                "text": "black/ivory",
                 "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/NDO21-Mens-VC-Tee-Black-Ivory.png?v=1614087126"
             },
             {
                 "value": "#8F7B82",
-                "text": "color:mulberry/ivory",
+                "text": "mulberry/ivory",
                 "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Fall20-Mens-VC-Singlet-Mulberry-Ivory.png?v=1614087126"
             },
             {
                 "value":  "#B88E2C",
-                "text": "color:gold/ivory",
+                "text": "gold/ivory",
                 "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Fall20-Mens-VC-Singlet-Gold-Ivory_f6439516-150e-4c84-a3b6-7c4c88150b58.png?v=1614087126"
             },
             {
@@ -363,44 +364,44 @@
         "colors": [
             {
                 "value": "#0035FF",
-                "text": "color:royal/skylight",
+                "text": "royal/skylight",
                 "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Mens-VC-Singlet-Royal-Skylight_598b247f-3f2f-44d2-830a-6081af26875a.png"
             },
             {
                 "value": "#8CAEC3",
-                "text": "color:stonewash/ivory",
+                "text": "stonewash/ivory",
                 "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Mens-VC-Singlet-Stonewash-Ivory_b0bef106-5252-4c45-ae76-918ee844c670.png?v=1614086926"
                 
             },
             {
                 "value":  "#D43800",
-                "text": "color:ivory/paprika",
+                "text": "ivory/paprika",
                 "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Mens-VC-Singlet-Ivory-Paprika-Ivory_24a28684-90e5-4686-8628-71491b50e19c.png?v=1614086926"
             },
             {
                 "value": "#000000",
-                "text": "color:black/ivory",
+                "text": "black/ivory",
                 "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/NDO21-Mens-VC-Singlet-Black-Ivory.png?v=1614086926"
             },
             {
                 "value": "#8F7B82",
-                "text": "color:plum/mulberry",
+                "text": "plum/mulberry",
                 "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Fall20-Mens-VC-Singlet-Plum-Mulberry.png?v=1614086926"
             },
             {
                 "value":  "#B88E2C",
-                "text": "color:gold/ivory",
+                "text": "gold/ivory",
                 "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Fall20-Mens-VC-Singlet-Gold-Ivory.png?v=1614086926"
             },
             {
                 "value":  "#252C45",
-                "text": "color:navy/ivory",
+                "text": "navy/ivory",
                 "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Copy_of_Laydown_VCSinglet_MEN_0007_TrackSmith_Mens_VCSinglet_NavyIvory_006_RTF.png?v=1614086926"
 
             },
             {
                 "value":  "#000000",
-                "text": "color:black",
+                "text": "black",
                 "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Mens_VC_Singlet_Black.png?v=1614086926"
             } 
 
@@ -422,35 +423,35 @@
         "colors": [
             {
                 "value": "#0035FF",
-                "text": "color:royal/skylight",
+                "text": "royal/skylight",
                 "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Mens-VC-Grand-Shorts-Royal-Ivory.png?v=1614084480"
             },
             {
                 "value": "#8CAEC3",
-                "text": "color:stonewash/ivory",
+                "text": "stonewash/ivory",
                 "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Mens-VC-Grand-Shorts-Stonewash-Ivory.png?v=1614084480"
                 
             },
             {
                 "value":  "#D43800",
-                "text": "color:ivory/paprika",
+                "text": "ivory/paprika",
                 "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Mens-VC-Grand-Shorts-Ivory-Paprika.png?v=1614084480"
             },
             {
                 "value": "#000000",
-                "text": "color:black/ivory",
+                "text": "black/ivory",
                 "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/NDO21-Mens-VC-Grand-Shorts-Black-Ivory.png?v=1614084437"
             },
            
             {
                 "value":  "#252C45",
-                "text": "color:navy/ivory",
+                "text": "navy/ivory",
                 "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Fall20-Mens-VC-Grand-Shorts-Navy-Ivory.png?v=1614084437"
 
             },
             {
                 "value":  "#000000",
-                "text": "color:black",
+                "text": "black",
                 "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Spring20-Mens-VC-4inch-Shorts-Black.png?v=1614084437"
             } 
         ],
@@ -471,33 +472,33 @@
         "colors": [
             {
                 "value": "#0035FF",
-                "text": "color:royal blue",
+                "text": "royal blue",
                 "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Mens-VC-Shorts-Royal-Blue.png?v=1614084827"
             },
             {
                 "value": "#8CAEC3",
-                "text": "color:stonewhash",
+                "text": "stonewhash",
                 "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Mens-VC-Shorts-Stonewash.png?v=1614084827"
                 
             },
             {
                 "value":  "#D43800",
-                "text": "color:paprika",
+                "text": "paprika",
                 "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Mens-VC-Shorts-Paprika.png?v=1614084827"
             },
             {
                 "value": "#000000",
-                "text": "color:black/ivory",
+                "text": "black/ivory",
                 "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/NDO21-Mens-VC-Shorts-Black-Ivory.png?v=1614084809"
             },
             {
                 "value": "#000000",
-                "text": "color:black",
+                "text": "black",
                 "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Laydown_VCShorts_Black_MEN.png?v=1614084809"
             },
             {
                 "value":  "#252C45",
-                "text": "color:navy",
+                "text": "navy",
                 "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Laydown_VCShorts_MEN_0000s_0007_TrackSmith_Mens_VCShorts_Navy_004_RTF.png?v=1614084809"
             }
         ],
@@ -518,17 +519,17 @@
         "colors": [
             {
                 "value": "#A4CEB6",
-                "text": "color:spruce",
+                "text": "spruce",
                 "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Mens-Session-Split-Shorts-Spruce.png?v=1614106187"
             },
             {
                 "value":  "#393840",
-                "text": "color:charcoal",
+                "text": "charcoal",
                 "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Mens-Session-Split-Shorts-Charcoal.png?v=1614106187"
             },
             {
                 "value":  "#252C45",
-                "text": "color:navy",
+                "text": "navy",
                 "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Mens-Session-Speed-Shorts-Navy.png?v=1614106187"
             }
         ],
@@ -549,27 +550,27 @@
         "colors": [
             {
                 "value": "#A4CEB6",
-                "text": "color:spruce",
+                "text": "spruce",
                 "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Mens-Session-7Inch-Shorts-Spruce.png?v=1614081151"
             },
             {
                 "value": "#252C45",
-                "text": "color:navy",
+                "text": "navy",
                 "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Spring20-Mens-Session-7Inch-Shorts-Navy.png?v=1589488219"
             },
             {
                 "value": "#393840",
-                "text": "color:charcoal",
+                "text": "charcoal",
                 "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/19-Men-Session-Short-7-inch-Charcoal.png?v=1589488219"
             },
             {
                 "value": "#000000",
-                "text": "color:black",
+                "text": "black",
                 "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Spring18-Men-Session-Short-7-inch-Black.png?v=1589488219"
             },
             {
                 "value": "#252C45",
-                "text": "color:dark esmerald",
+                "text": "dark esmerald",
                 "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Mens-Session-7Inch-Shorts-Dark-Emerald.png?v=1614081151"
             }
         ],
@@ -590,22 +591,22 @@
         "colors": [
             {
                 "value": "#A4CEB6",
-                "text": "color:spruce",
+                "text": "spruce",
                 "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Mens-Session-7Inch-Shorts-Spruce.png?v=1614081151"
             },
             {
                 "value": "#252C45",
-                "text": "color:navy",
+                "text": "navy",
                 "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Spring20-Mens-Session-7Inch-Shorts-Navy.png?v=1589488219"
             },
             {
                 "value": "#393840",
-                "text": "color:charcoal",
+                "text": "charcoal",
                 "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/19-Men-Session-Short-7-inch-Charcoal.png?v=1589488219"
             },
             {
-                "value": "#252C45",
-                "text": "color:dark esmerald",
+                "value": "#091111",
+                "text": "dark esmerald",
                 "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Mens-Session-7Inch-Shorts-Dark-Emerald.png?v=1614081151"
             }
         ],
@@ -626,23 +627,23 @@
         "colors": [
             {
                 "value": "#BD6967",
-                "text": "color:rosewood/ivory",
-                "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Mens-Session-7Inch-Shorts-Spruce.png?v=1614081151"
+                "text": "rosewood/ivory",
+                "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Mens-Twilight-5Inch-Shorts-Rosewood-Ivory.png?v=1613937610"
             },
             {
                 "value": "#A4CEB6",
-                "text": "color:spruce",
-                "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Mens-Session-7Inch-Shorts-Spruce.png?v=1614081151"
+                "text": "spruce",
+                "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Mens-Twilight-5Inch-Shorts-Spruce-Ivory.png?v=1613937610"
             },
             {
                 "value": "#000000",
-                "text": "color:black",
-                "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/19-Men-Session-Short-7-inch-Charcoal.png?v=1589488219"
+                "text": "black",
+                "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Mens-Twilight-5Inch-Shorts-Black.png?v=1613937610"
             },
             {
                 "value": "#393840",
-                "text": "color:navy",
-                "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Spring20-Mens-Session-7Inch-Shorts-Navy.png?v=1589488219"
+                "text": "navy",
+                "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Mens-Twilight-5Inch-Shorts-Black.png?v=1613937610"
             }
             
             
@@ -665,17 +666,17 @@
         "colors": [
             {
                 "value": "#000000",
-                "text": "color:black",
+                "text": "black",
                 "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Fall20-Speed-Crew-Sock-Black.png?v=1597201736"
             },
             {
                 "value": "#FFFEF3",
-                "text": "color:white",
+                "text": "white",
                 "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Fall20-Speed-Crew-Sock-White.png?v=1597201736"
             },
             {
                 "value": "#252C45",
-                "text": "color:navy",
+                "text": "navy",
                 "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Fall20-Speed-Crew-Sock-Navy.png?v=1597201736"
             }
 
@@ -722,7 +723,7 @@
             {   
                 "value": "#A4CEB6",
                 "text":"spruce/ivory",
-                "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Fall20-Off-Roads-Sock-Navy-Ivory-Plum_28825276-91a9-4223-8f34-3c1b493acf78.png"
+                "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-Tube-Sock-Spruce-Ivory2.png?v=1616034786"
             },
             {
                 "value": "#B88E2C",
@@ -744,12 +745,13 @@
     {
         "id": 22,
         "nombre": "merino no show sock",
+        "descripcion":"A merino tube sock for running with a reinforced rib band for support. ",
         "precio": 12,
         "imagen": "https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-No-Show-Sock-Stonewash-Ivory.png?v=1614889064",
         "colors": [
             {
                 "value": "#8CAEC3",
-                "text": "color:stonewash/ivory",
+                "text": "stonewash/ivory",
                 "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,w_560,h_560,b_rgb:fffff3,c_fill,f_auto/store/products/Spring21-No-Show-Sock-Stonewash-Ivory.png?v=1614889064"
             },
             {
@@ -760,7 +762,7 @@
 
             },
             {
-                "value":"##FFFFFF",
+                "value":"#FFFFFF",
                 "text":"white/gravel",
                 "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Fall20-Merino-No-Show-Socks-Ivory-Gravel.png?v=1604434589"
                 
@@ -768,7 +770,7 @@
             },
             {
                 "value": "#8F7B82",
-                "text": "color:plum/mulberry",
+                "text": "plum/mulberry",
                 "image":"https://res.cloudinary.com/tracksmith/image/upload/fl_lossy,q_auto,dpr_1.5,h_1240,w_1240,b_rgb:fffff3,c_fill,f_auto/store/products/Fall20-Merino-No-Show-Socks-Plum.png?v=1604434590"
             }
 
