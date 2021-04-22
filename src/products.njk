@@ -1,6 +1,6 @@
 ---
 pagination:
- data: productos
+ data: producto
  size: 1
  alias: item
 permalink: "productos/{{ item.nombre | slug }}/"
@@ -25,7 +25,7 @@ permalink: "productos/{{ item.nombre | slug }}/"
         <div class="flex items-center justify-center mt-20">
 
             <div class="flex justify-center items-center float-left container mx-auto">
-                <img id="foto" src="{{item.imagen}}"
+                <img id="foto" src="{{item.imagen.url}}"
                     style="background-size:cover;max-height:70%;max-width: 70%;">
 
             </div>
@@ -39,7 +39,7 @@ permalink: "productos/{{ item.nombre | slug }}/"
                 <p id="textoColor" class="uppercase text-gray-300"></p>                
                 <ul id="contenedor" class="flex items-center justify-center mt-10 ">                   
                     {% for color in item.colors %}
-                    <button data-color="{{color.value}}" data-color-text="{{color.text}}" data-colorimage="{{color.image}}" class="color-selector py-5 px-5 " style="background-color: {{color.value}}"></button>
+                    <button data-color="{{color.value}}" data-color-text="{{color.text}}" data-colorimage="{{color.imagen.url}}" class="color-selector py-5 px-5 " style="background-color: {{color.value}}"></button>
                     {% endfor %}
             </div>
             
@@ -48,9 +48,10 @@ permalink: "productos/{{ item.nombre | slug }}/"
             <p id="textoTallas" class="uppercase text-gray-300 text-center mb-1"></p>
             <div class="flex  items-center justify-center">
 
-                {% for size in item.sizes %}
+                {% for size in item.size %}
                 
-                <button data-size="{{size}}" class="size-selector border-2 border-l border-r py-2 px-4 border-textcolorP">{{size}}</button>
+                <button data-size="{{size.size}}" class="size-selector border-2 border-l border-r py-2 px-4 border-textcolorP">{{size.
+                    size}}</button>
                 
                 {% endfor %}
 
