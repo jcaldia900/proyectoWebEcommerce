@@ -9,3 +9,7 @@
 ## [0.0.3] - 2021-04-19
 ### Changed
 -Traslado de todo el JS en html a el archivo main.js
+## [0.0.3] - 2021-04-22
+### Changed
+Migracion de contenido, pasando de usar json a usar archivos js en conjunto con xQuerty apiRocket.
+Modificaciones de njk (al hacer la migracion hubo ligeros cambios en el codigo)

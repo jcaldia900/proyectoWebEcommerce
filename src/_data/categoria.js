@@ -19,6 +19,9 @@ module.exports = async function () {
             url
           }
           nombre
+          bg {
+            url
+          }
         }
         AllTests {
           id
